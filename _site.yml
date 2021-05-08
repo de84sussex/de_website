@@ -1,16 +1,18 @@
 name: "de_website"
-title: "My Website"
+title: "Project Supervision"
 description: |
   My Website
 output_dir: "_site"
+theme: dans-theme.css
 navbar:
   right:
     - text: "Home"
       href: index.html
+    - text: "Students"
+      href: students.html
+    - text: "Supervisors"
+      href: supervisors.html
     - text: "About"
       href: about.html
-    - text: "Analysis Tools"
-      href: analysis.html
-output: 
-  distill::distill_article:
-    css: styles.css
+
+output: distill::distill_article

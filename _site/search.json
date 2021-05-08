@@ -5,29 +5,32 @@
       "title": "About this site",
       "description": "Some additional details about the website",
       "author": [],
-      "contents": "\r\nhhkfjhkjshhf\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-05-07T19:55:54+01:00"
-    },
-    {
-      "path": "analysis.html",
-      "title": "Tools for Analysis",
-      "description": "Some additional details about the website\n",
-      "author": [
-        {
-          "name": "Danielle Evans",
-          "url": {}
-        }
-      ],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-05-07T19:55:55+01:00"
+      "last_modified": "2021-05-08T11:58:57+01:00"
     },
     {
       "path": "index.html",
-      "title": "My Website",
-      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "title": "Project Supervision",
+      "description": "Welcome to the website. \n",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-05-07T19:55:56+01:00"
+      "last_modified": "2021-05-08T11:58:58+01:00"
+    },
+    {
+      "path": "students.html",
+      "title": "For Students",
+      "description": "Some additional details about the website\n",
+      "author": [],
+      "contents": "\r\n\r\nContents\r\n1\r\n2\r\n\r\n\r\n1\r\n2\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-05-08T11:58:59+01:00"
+    },
+    {
+      "path": "supervisors.html",
+      "title": "For Supervisors",
+      "description": "Some additional details about the website\n",
+      "author": [],
+      "contents": "\r\n\r\nContents\r\n1\r\n2\r\n\r\n\r\n1\r\n2\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-05-08T11:59:00+01:00"
     }
   ],
   "collections": []

@@ -1,12 +1,17 @@
 ---
-title: "Tools for Analysis"
+title: "For Students"
 description: |
   Some additional details about the website
-author: 
-  - name: Danielle Evans
+output:
+  distill::distill_article:
+    toc: true
+    toc_float: true
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+## 1
+
+### 2
