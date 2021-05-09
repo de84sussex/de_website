@@ -1,7 +1,7 @@
 ---
 title: "Project Supervision"
 description: |
-  Welcome to the website. 
+  Coming Soon!
 site: distill::distill_website
 ---
 
@@ -13,3 +13,6 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
+Access the [R Guide](guide.html)
+
+Search for [Common ErroRs](errors.html)

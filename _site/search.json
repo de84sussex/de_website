@@ -6,31 +6,47 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-05-08T11:58:57+01:00"
+      "last_modified": "2021-05-09T18:44:49+01:00"
+    },
+    {
+      "path": "errors.html",
+      "title": "Common ErroRs",
+      "description": "Coming Soon!\n",
+      "author": [],
+      "contents": "\r\n\r\nContents\r\n1\r\n2\r\n\r\n\r\n1\r\n2\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-05-09T18:44:49+01:00"
+    },
+    {
+      "path": "guide.html",
+      "title": "R Guide For Supervisors",
+      "description": "Coming Soon!\n",
+      "author": [],
+      "contents": "\r\n\r\nContents\r\n1\r\n2\r\n\r\n\r\n1\r\n2\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-05-09T18:44:50+01:00"
     },
     {
       "path": "index.html",
       "title": "Project Supervision",
-      "description": "Welcome to the website. \n",
+      "description": "Coming Soon!\n",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-05-08T11:58:58+01:00"
+      "contents": "\r\nAccess the R Guide\r\nSearch for Common ErroRs\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-05-09T18:44:51+01:00"
     },
     {
-      "path": "students.html",
-      "title": "For Students",
-      "description": "Some additional details about the website\n",
+      "path": "one.html",
+      "title": "Students One",
+      "description": "Coming Soon!\n",
       "author": [],
-      "contents": "\r\n\r\nContents\r\n1\r\n2\r\n\r\n\r\n1\r\n2\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-05-08T11:58:59+01:00"
+      "contents": "\r\n\r\nContents\r\n1\r\n2\r\n\r\n\r\n\r\ntest\r\n\r\n1\r\n2\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-05-09T18:44:52+01:00"
     },
     {
-      "path": "supervisors.html",
-      "title": "For Supervisors",
-      "description": "Some additional details about the website\n",
+      "path": "two.html",
+      "title": "Students Two",
+      "description": "Coming Soon!\n",
       "author": [],
       "contents": "\r\n\r\nContents\r\n1\r\n2\r\n\r\n\r\n1\r\n2\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-05-08T11:59:00+01:00"
+      "last_modified": "2021-05-09T18:44:53+01:00"
     }
   ],
   "collections": []

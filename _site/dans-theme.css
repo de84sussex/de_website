@@ -11,7 +11,29 @@
 /* Optional: embed custom fonts here with `@import`          */
 /* This must remain at the top of this file.                 */
 
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400i|PT+Sans:400,400i,700,700i|PT+Mono:400,400i,700,700i&display=swap');
 
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP:300, 300i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sen&display=swap');
+
+body {
+  font-family: "Sen";
+  /*color: #1f1f1f;*/
+  color: #405359;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Noto Serif JP";
+  letter-spacing: 2px;
+  line-height: 2rem; /* increases, so wrapping headers don't overlap */ 
+  color: #096B72;
+  font-weight: 300;
+}
+
+d-title {
+  padding-top: 13rem; /*so that navbar doesn't overlap fixed title */
+}
 
 html {
   /*-- Main font sizes --*/
@@ -27,10 +49,10 @@ html {
   --aside-color:     rgba(0, 0, 0, 0.6);
   --fig-cap-color:   rgba(0, 0, 0, 0.6);
   /*-- Specify custom fonts ~~~ must be imported above   --*/
-  --heading-font:    sans-serif;
+  --heading-font:    "Noto Serif JP";
   --mono-font:       monospace;
-  --body-font:       sans-serif;
-  --navbar-font:     sans-serif;  /* websites + blogs only */
+  --body-font:       "Sen";
+  --navbar-font:     "Sen";  /* websites + blogs only */
 }
 
 /*-- ARTICLE METADATA --*/
@@ -62,9 +84,29 @@ d-appendix {
   --title-size:       18px;
   --text-color:       rgba(0, 0, 0, 1);
   --text-size:        15px;
-  --hover-color:      white;
-  --bkgd-color:       orange;
+  --hover-color:      #ff6194;
+  --bkgd-color:       #ffaec8;
 }
+
+.distill-site-header{ 
+  padding: 40px 0px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255,255,255,0.5));   
+  background-color: transparent;
+  font-size: 15px;
+  font-family: "Noto Serif JP";
+  letter-spacing: 2px;
+}
+
+.distill-site-header .logo img{
+  max-height: 25px; /* Makes logo bigger, default was 20px */
+}
+
+
+
+
+
+
+
 
 .distill-site-footer {
   --text-color:       rgba(255, 255, 255, 0.8);
@@ -75,4 +117,102 @@ d-appendix {
 
 /*-- Additional custom styles --*/
 /* Add any additional CSS rules below                      */
+
+
+
+/* -----------div tips------------- */
+
+
+div.puzzle {
+  padding: 1em;
+  margin: 1em 0;
+  padding-left: 100px;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  min-height: 120px;
+  color: #ffffff;
+  background-color: #f79494;
+  border: dashed 5px #ffdfdf;
+}
+
+div.puzzle {
+  background-image: url("img/Your-turn.png");
+}
+
+div.fyi {
+  padding: 1em;
+  margin: 1em 0;
+  padding-left: 100px;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  min-height: 120px;
+  color: #ffffff;
+  background-color: #767fd5;
+  border: dashed 5px #c9cefc;
+}
+
+div.fyi {
+ background-image: url("img/fyi.png");
+}
+
+div.demo {
+  padding: 1em;
+  margin: 1em 0;
+  padding-left: 100px;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  min-height: 120px;
+  color: #ffffff;
+  background-color: #7abff7;
+  border: dashed 5px #b9e0ff;
+}
+
+div.demo {
+  background-image: url("img/Live-code.png");
+}
+
+div.note {
+  padding: 1em;
+  margin: 1em 0;
+  padding-left: 100px;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  min-height: 120px;
+  color: #ffffff;
+  background-color: #82d1c1;
+  border: dashed 5px #b6e6dd;
+}
+
+div.note {
+  background-image: url("img/lightbulb.png");
+}
+
+
+
+
+div.qs {
+  padding: 1em;
+  margin: 1em 0;
+  padding-left: 100px;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  min-height: 120px;
+  color: #ffffff;
+  background-color: #FFA200;
+  border: dashed 5px #FFE8C1;
+}
+
+div.qs {
+  background-image: url("img/newq.png");
+}
+
+
+
+
+
 

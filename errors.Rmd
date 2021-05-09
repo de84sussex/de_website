@@ -1,7 +1,7 @@
 ---
-title: "For Supervisors"
+title: "Common ErroRs"
 description: |
-  Some additional details about the website
+  Coming Soon!
 output:
   distill::distill_article:
     toc: true

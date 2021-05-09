@@ -1,7 +1,7 @@
 ---
-title: "For Students"
+title: "Students One"
 description: |
-  Some additional details about the website
+  Coming Soon!
 output:
   distill::distill_article:
     toc: true
@@ -11,6 +11,12 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+:::fyi
+
+test
+
+:::
 
 ## 1
 
