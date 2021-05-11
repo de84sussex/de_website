@@ -1,0 +1,38 @@
+---
+title: "Dissertation Advice"
+description: |
+  Coming Soon!
+output:
+  distill::distill_article:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+### Important Dates
+
+Analysis plan: TBD
+
+Ethics: week 8
+
+First draft & feedback: TBD
+
+Dissertation standard deadline: May 2022
+
+
+
+### The Research Process
+
+
+### Literature Searches
+
+
+### Analysis Plan
+
+
+### Writing Advice
+
+

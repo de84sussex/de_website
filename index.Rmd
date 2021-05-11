@@ -13,6 +13,24 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-Access the [R Guide](guide.html)
+## Students
 
-Search for [Common ErroRs](errors.html)
+- Find out [meeting information](meetings.html)
+
+- Get [dissertation advice](dissertation.html)
+
+- Use the [RMarkdown tutorial](rmarkdown_tutorial.html) to help you write your dissertation
+
+- Send in your submissions to the [journal club](jc.html)  
+
+
+## Supervisors
+
+- Access the [R resources](guide.html)  
+
+- Search for [common erroRs](errors.html)  
+
+- Sign up to the [help desk](help.html)  
+
+
+

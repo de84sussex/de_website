@@ -1,5 +1,5 @@
 ---
-title: "Students One"
+title: "Writing a Dissertation in RMarkdown"
 description: |
   Coming Soon!
 output:
@@ -12,12 +12,3 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-:::fyi
-
-test
-
-:::
-
-## 1
-
-### 2

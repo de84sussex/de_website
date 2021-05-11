@@ -1,8 +1,6 @@
 name: "de_website"
-title: "PROJECT SUPERVISION"
 theme: dans-theme.css
-description: |
-  My Website
+title: "PROJECT SUPERVISION"
 output_dir: "_site"
 navbar:
   logo:
@@ -11,16 +9,22 @@ navbar:
   right:
     - text: "Students"
       menu:
-      - text: "1"
-        href: one.html
-      - text: "2"
-        href: two.html
+      - text: "Meetings"
+        href: meetings.html
+      - text: "Dissertation Advice"
+        href: dissertation.html
+      - text: "RMarkdown Tutorial"
+        href: rmarkdown_tutorial.html
+      - text: "Journal Club"
+        href: jc.html
     - text: "Supervisors"
       menu:
-      - text: "R Guide"
+      - text: "R Resources"
         href: guide.html
-      - text: "ErroRs"
+      - text: "ErroR Search"
         href: errors.html
+      - text: "R Help Desk"
+        href: helpdesk.html
     - text: "More"
       menu:
       - text: "About"

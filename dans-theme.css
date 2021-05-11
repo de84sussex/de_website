@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Noto Serif JP";
   letter-spacing: 2px;
   line-height: 2rem; /* increases, so wrapping headers don't overlap */ 
-  color: #096B72;
+  color: #000000;
   font-weight: 300;
 }
 
@@ -101,12 +101,9 @@ d-appendix {
   max-height: 25px; /* Makes logo bigger, default was 20px */
 }
 
-
-
-
-
-
-
+.nav-dropdown-content a:hover {
+	background-color: #f7f7f7;
+}
 
 .distill-site-footer {
   --text-color:       rgba(255, 255, 255, 0.8);
@@ -114,6 +111,46 @@ d-appendix {
   --hover-color:      white;
   --bkgd-color:       #0F2E3D;
 }
+
+
+
+
+
+/*----- COLORED LIST BULLET----*/
+
+d-article ul {
+  list-style: none; /* Remove default bullets */
+}
+
+d-article ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #897aff; /* Change the color */
+  font-weight: normal; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1.5em; /* Also needed for space (tweak if needed) */
+  margin-left: -1.5em; /* Also needed for space (tweak if needed) */
+}
+
+d-article ul > li > p {
+  display: inline; /* to have content show up next to bullet */
+  line-height: 1.6em;
+}
+
+d-article ul > li { /*to add back in space between bullet items that I took away by making p display inline */
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.d-toc ul li::before {
+  content: " ";  /* Remove toc bullets */
+}
+
+
+
+
+
+
+
 
 /*-- Additional custom styles --*/
 /* Add any additional CSS rules below                      */
@@ -213,6 +250,20 @@ div.qs {
 
 
 
+div.sol {
+  padding: 1em;
+  margin: 1em 0;
+  padding-left: 90px;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: 9px center;
+  min-height: 1px;
+  color: black;
+  background-color: #f2f8ff;
+  border: dashed 5px #c7e1ff;
 
+}
 
-
+div.sol {
+  background-image: url("img/fyi2.png");
+}

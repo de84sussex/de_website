@@ -85,29 +85,29 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>PROJECT SUPERVISION: Common ErroRs</title>
+  <title>PROJECT SUPERVISION: ErroR Search</title>
 
-  <meta property="description" itemprop="description" content="Coming Soon!"/>
+  <meta property="description" itemprop="description" content="This page includes a list of common R errors, their usual causes, and some solutions!"/>
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="PROJECT SUPERVISION: Common ErroRs"/>
+  <meta property="og:title" content="PROJECT SUPERVISION: ErroR Search"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Coming Soon!"/>
+  <meta property="og:description" content="This page includes a list of common R errors, their usual causes, and some solutions!"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="PROJECT SUPERVISION"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="PROJECT SUPERVISION: Common ErroRs"/>
-  <meta property="twitter:description" content="Coming Soon!"/>
+  <meta property="twitter:title" content="PROJECT SUPERVISION: ErroR Search"/>
+  <meta property="twitter:description" content="This page includes a list of common R errors, their usual causes, and some solutions!"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","output"]}},"value":[{"type":"character","attributes":{},"value":["Common ErroRs"]},{"type":"character","attributes":{},"value":["Coming Soon!\n"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_float"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"logical","attributes":{},"value":[true]}]}]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","output"]}},"value":[{"type":"character","attributes":{},"value":["ErroR Search"]},{"type":"character","attributes":{},"value":["This page includes a list of common R errors, their usual causes, and some solutions!\n"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_float"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"logical","attributes":{},"value":[true]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -1879,7 +1879,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     font-family: "Noto Serif JP";
     letter-spacing: 2px;
     line-height: 2rem; /* increases, so wrapping headers don't overlap */ 
-    color: #096B72;
+    color: #000000;
     font-weight: 300;
   }
 
@@ -1953,12 +1953,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     max-height: 25px; /* Makes logo bigger, default was 20px */
   }
 
-
-
-
-
-
-
+  .nav-dropdown-content a:hover {
+  	background-color: #f7f7f7;
+  }
 
   .distill-site-footer {
     --text-color:       rgba(255, 255, 255, 0.8);
@@ -1966,6 +1963,46 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --hover-color:      white;
     --bkgd-color:       #0F2E3D;
   }
+
+
+
+
+
+  /*----- COLORED LIST BULLET----*/
+
+  d-article ul {
+    list-style: none; /* Remove default bullets */
+  }
+
+  d-article ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #897aff; /* Change the color */
+    font-weight: normal; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1.5em; /* Also needed for space (tweak if needed) */
+    margin-left: -1.5em; /* Also needed for space (tweak if needed) */
+  }
+
+  d-article ul > li > p {
+    display: inline; /* to have content show up next to bullet */
+    line-height: 1.6em;
+  }
+
+  d-article ul > li { /*to add back in space between bullet items that I took away by making p display inline */
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .d-toc ul li::before {
+    content: " ";  /* Remove toc bullets */
+  }
+
+
+
+
+
+
+
 
   /*-- Additional custom styles --*/
   /* Add any additional CSS rules below                      */
@@ -2065,9 +2102,23 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 
+  div.sol {
+    padding: 1em;
+    margin: 1em 0;
+    padding-left: 90px;
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: 9px center;
+    min-height: 1px;
+    color: black;
+    background-color: #f2f8ff;
+    border: dashed 5px #c7e1ff;
 
+  }
 
-  </style>
+  div.sol {
+    background-image: url("img/fyi2.png");
+  }</style>
   <style type="text/css">
   /* base style */
 
@@ -2243,7 +2294,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Common ErroRs","description":"Coming Soon!","authors":[]}
+{"title":"ErroR Search","description":"This page includes a list of common R errors, their usual causes, and some solutions!","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2264,8 +2315,10 @@ Students
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
-<a href="one.html">1</a>
-<a href="two.html">2</a>
+<a href="meetings.html">Meetings</a>
+<a href="dissertation.html">Dissertation Advice</a>
+<a href="rmarkdown_tutorial.html">RMarkdown Tutorial</a>
+<a href="jc.html">Journal Club</a>
 </div>
 </div>
 <div class="nav-dropdown">
@@ -2275,8 +2328,9 @@ Supervisors
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
-<a href="guide.html">R Guide</a>
-<a href="errors.html">ErroRs</a>
+<a href="guide.html">R Resources</a>
+<a href="errors.html">ErroR Search</a>
+<a href="helpdesk.html">R Help Desk</a>
 </div>
 </div>
 <div class="nav-dropdown">
@@ -2298,10 +2352,10 @@ More
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Common ErroRs</h1>
+<h1>ErroR Search</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Coming Soon!</p></p>
+<p><p>This page includes a list of common R errors, their usual causes, and some solutions!</p></p>
 </div>
 
 
@@ -2310,15 +2364,22 @@ More
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#section">1</a>
-<ul>
-<li><a href="#section-1">2</a></li>
-</ul></li>
+<li><a href="#could-not-find-function-.."><code>Could not find function ".."</code></a></li>
+<li><a href="#could-not-find-function"><code>Could not find function "%&gt;%"</code></a></li>
 </ul>
 </nav>
 </div>
-<h2 id="section">1</h2>
-<h3 id="section-1">2</h3>
+<p>Coming Soon!</p>
+<h3 id="could-not-find-function-.."><code>Could not find function ".."</code></h3>
+<h4 id="causes">Causes</h4>
+<p>This error usually occurs because the package which contains the function isn’t loaded or the function isn’t spelled correctly.</p>
+<h4 id="solutions">Solutions</h4>
+<ul>
+<li><p>Check the package is loaded with <code>library(package)</code></p></li>
+<li><p>Check the function is spelled correctly</p></li>
+</ul>
+<h3 id="could-not-find-function"><code>Could not find function "%&gt;%"</code></h3>
+<p><br> <br> <br></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

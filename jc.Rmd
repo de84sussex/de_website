@@ -1,0 +1,46 @@
+---
+title: "Journal Club"
+description: |
+  Share any interesting articles and helpful resources!
+output:
+  distill::distill_article:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(emo)
+```
+
+### Submit Your Article 
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScF44oNJpPyI2pjVqoB8BQcIa6Z47D8vM-t_118LCILPSfxjA/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+
+### Educational Outcomes `r emo::ji("books")`
+
+
+
+### Statistics Education `r emo::ji("bar_chart")`
+
+
+
+### General Cool Stuff `r emo::ji("star_struck")`
+
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,7 +1,7 @@
 ---
-title: "R Guide For Supervisors"
+title: "R Resources"
 description: |
-  Coming Soon!
+  This page contains links to R resources focusing on each core topic covered to date!   
 output:
   distill::distill_article:
     toc: true
@@ -12,6 +12,36 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## 1
+Coming Soon! 
 
-### 2
+### RStudio  
+
+:::sol
+
+A note on installing tutorials...
+
+:::
+
+### RMarkdown  
+
+
+### Importing Data  
+
+
+### Cleaning & Wrangling Data  
+
+
+### Summarising Data  
+
+
+### Statistical Analyses  
+
+
+
+
+
+
+
+
+
+
