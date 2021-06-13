@@ -22,21 +22,25 @@ A note on installing tutorials...
 
 :::
 
-### RMarkdown  
+### RMarkdown
 
+Coming Soon! 
 
-### Importing Data  
+### Importing Data
 
+Coming Soon! 
 
 ### Cleaning & Wrangling Data  
 
+Coming Soon! 
 
 ### Summarising Data  
 
+Coming Soon! 
 
 ### Statistical Analyses  
 
-
+Coming Soon! 
 
 
 

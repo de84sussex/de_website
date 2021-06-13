@@ -14,38 +14,52 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Semester One
 
-+------+----------------------------------------------------------------+--------------------+
-| Week | Agenda                                                         | Notes              |
-+======+================================================================+====================+
-| 1    | Introductions, setup R Project, discuss meetings going forward | Bring your device! |
-+------+----------------------------------------------------------------+--------------------+
-| 2    | TBD                                                            |                    |
-+------+----------------------------------------------------------------+--------------------+
-| 3    | TBD                                                            |                    |
-+------+----------------------------------------------------------------+--------------------+
-| 4    | TBD                                                            |                    |
-+------+----------------------------------------------------------------+--------------------+
-| 5    | TBD                                                            |                    |
-+------+----------------------------------------------------------------+--------------------+
-| 6    | TBD                                                            |                    |
-+------+----------------------------------------------------------------+--------------------+
-| 7    | TBD                                                            |                    |
-+------+----------------------------------------------------------------+--------------------+
-| 8    | TBD                                                            |                    |
-+------+----------------------------------------------------------------+--------------------+
-| 9    | TBD                                                            |                    |
-+------+----------------------------------------------------------------+--------------------+
-| 10   | TBD                                                            |                    |
-+------+----------------------------------------------------------------+--------------------+
-| 11   | TBD                                                            |                    |
-+------+----------------------------------------------------------------+--------------------+
++------+---------------------------------------------------------------+--------------------+
+| Week | Agenda                                                        | Notes              |
++======+===============================================================+====================+
+| 0    | Complete the [groundwork form](./docs/GW.docx) before Week 1! |                    |
++------+---------------------------------------------------------------+--------------------+
+| 1    | Intros, groundwork form, R Project, future meetings           | Bring your device! |
++------+---------------------------------------------------------------+--------------------+
+| 2    | TBD                                                           |                    |
++------+---------------------------------------------------------------+--------------------+
+| 3    | TBD                                                           |                    |
++------+---------------------------------------------------------------+--------------------+
+| 4    | TBD                                                           |                    |
++------+---------------------------------------------------------------+--------------------+
+| 5    | TBD                                                           |                    |
++------+---------------------------------------------------------------+--------------------+
+| 6    | TBD                                                           |                    |
++------+---------------------------------------------------------------+--------------------+
+| 7    | TBD                                                           |                    |
++------+---------------------------------------------------------------+--------------------+
+| 8    | TBD                                                           |                    |
++------+---------------------------------------------------------------+--------------------+
+| 9    | TBD                                                           |                    |
++------+---------------------------------------------------------------+--------------------+
+| 10   | TBD                                                           |                    |
++------+---------------------------------------------------------------+--------------------+
+| 11   | TBD                                                           |                    |
++------+---------------------------------------------------------------+--------------------+
+
+::: {.ex}
+Remember to record the outcome of all meetings on Sussex Direct!
+:::
 
 ### Padlet
 
 Use the Padlet to post any questions/comments/concerns for discussion at our next meeting!
 
-<div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"><p style="padding:0;margin:0"><iframe src="https://uofsussex.padlet.org/embed/beevrv9bkphdf8lk" frameborder="0" allow="camera;microphone;geolocation" style="width:100%;height:500px;display:block;padding:0;margin:0"></iframe></p><div style="padding:8px;text-align:right;margin:0;"><a href="https://padlet.com?ref=embed" style="padding:0;margin:0;border:none;display:block;line-height:1;height:16px" target="_blank"><img src="https://padlet.net/embeds/made_with_padlet.png" width="86" height="16" style="padding:0;margin:0;background:none;border:none;display:inline;box-shadow:none" alt="Made with Padlet"></a></div></div>
+::: {.padlet-embed style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"}
+<p style="padding:0;margin:0">
 
+<iframe src="https://uofsussex.padlet.org/embed/beevrv9bkphdf8lk" frameborder="0" allow="camera;microphone;geolocation" style="width:100%;height:500px;display:block;padding:0;margin:0">
 
+</iframe>
 
+</p>
 
+::: {style="padding:8px;text-align:right;margin:0;"}
+<a href="https://padlet.com?ref=embed" style="padding:0;margin:0;border:none;display:block;line-height:1;height:16px" target="_blank"><img src="https://padlet.net/embeds/made_with_padlet.png" alt="Made with Padlet" width="86" height="16" style="padding:0;margin:0;background:none;border:none;display:inline;box-shadow:none"/></a>
+:::
+:::

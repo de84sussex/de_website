@@ -10,29 +10,46 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+library(emo)
 ```
+
 
 ### Important Dates
 
-Analysis plan: TBD
-
 Ethics: week 8
+
+Analysis plan: Dec
 
 First draft & feedback: TBD
 
 Dissertation standard deadline: May 2022
 
 
+### A Very Rough Timeline
 
-### The Research Process
+Oct: Read up on topic area, decide on research question, hypotheses and methodology  
 
+Nov: Prepare materials, refine method and submit ethics  
 
-### Literature Searches
+Dec: Do analysis plan, start data collection and draft method section
+
+Jan: Continue data collection, start on analysis and draft intro
+
+Feb: Draft results and discussion
+
+March: Feedback on first draft
+
+April: Final edits 
+
+May: Submit!! `r emo::ji("partying_face")`
 
 
 ### Analysis Plan
 
+Coming Soon! 
 
-### Writing Advice
 
+### Working with Secondary Data
+
+Coming Soon! 
 

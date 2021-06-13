@@ -26,10 +26,23 @@ library(emo)
 
 ### Educational Outcomes `r emo::ji("books")`
 
+- Evans, D., & Field, A. P. (2020). [Maths attitudes, school affect and teacher characteristics as predictors of maths attainment trajectories in primary and secondary education](https://doi.org/10.1098/rsos.200975). *Royal Society Open Science*, *7*(10), 200975. 
+
+- Evans, D., & Field, A. P. (2020). [Predictors of mathematical attainment trajectories across the primary-to-secondary education transition: Parental factors and the home environment](https://doi.org/10.1098/rsos.200422). *Royal Society Open Science*, *7*(7), 200422. 
+
+- Evans, D., Gaysina, D., & Field, A. P. (2020). [Internalizing symptoms and working memory as predictors of mathematical attainment trajectories across the primary–secondary education transition](https://doi.org/10.1098/rsos.191433). *Royal Society Open Science*, *7*(5), 191433. 
+
+- Field, A. P., Evans, D., Bloniewski, T., & Kovas, Y. (2019). [Predicting maths anxiety from mathematical achievement across the transition from primary to secondary education](https://doi.org/10.1098/rsos.191459). *Royal Society Open Science*, *6*(11), 191459. 
+
+- Evans, D., Borriello, G. A., & Field, A. P. (2018). [A review of the academic and psychological impact of the transition to secondary education](https://doi.org/10.3389/fpsyg.2018.01482). *Frontiers in Psychology*, 9. 
+ 
 
 
 ### Statistics Education `r emo::ji("bar_chart")`
 
+- Field, A. P. & Terry, J. C. (2018). [A pilot study of whether fictional narratives are useful in teaching statistical concepts](http://www.discoveringstatistics.com/docs/rss_poster_2018.pdf).
+
+- Smith, T. (2017). [Gamified Modules for an Introductory Statistics Course and Their Impact on Attitudes and Learning](https://doi.org/10.1177/1046878117731888). *Simulation & Gaming*, *48*(6), 832–854. 
 
 
 ### General Cool Stuff `r emo::ji("star_struck")`

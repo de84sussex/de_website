@@ -1,0 +1,39 @@
+---
+title: "Thesis Template"
+description: |
+  sussexthesis package coming soon!
+output:
+  distill::distill_article:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+:::float-image
+
+```{r out.width='20%', out.extra='style="float:right; padding:10px"', echo=FALSE}
+knitr::include_graphics("./img/sussexthesis_hex.png")
+```
+
+### sussexthesis package
+
+Coming Soon! 
+
+:::
+
+
+### Workflow
+
+Coming Soon! 
+
+
+### GitHub
+
+Coming Soon! 
+
+
+
+

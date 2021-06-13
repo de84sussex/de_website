@@ -287,4 +287,23 @@ div.task {
 }
 
 
+div.ex {
+  padding: 1em;
+  margin: 1em 0;
+  padding-left: 90px;
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: 21px center;
+  min-height: 1px;
+  color: black;
+  background-color: #F0EDFF;
+  border: dashed 5px #D6CFFF;
+
+}
+
+div.ex {
+  background-image: url("img/ex.png");
+}
+
+
 

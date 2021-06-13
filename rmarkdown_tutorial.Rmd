@@ -149,6 +149,14 @@ knitr::include_graphics("./img/yaml.png")
 
 ```
 
+:::sol
+
+To avoid more errors & to check your wordcount & spelling more accurately, I recommend knitting to a Word doc
+
+This is easily changed in the final line of the YAML above!
+
+:::
+
 
 <br>
 
@@ -167,7 +175,7 @@ In your dissertation R Project, open up your working directory by going to the F
 
 :::
 
-This should open up your dissertation R Project folder.
+If you completed the task box above, your dissertation R Project folder should now open.
 
 
 :::task

@@ -7,7 +7,7 @@ navbar:
     image: img/logo.png
     href: index.html
   right:
-    - text: "Students"
+    - text: "UG Students"
       menu:
       - text: "Meetings"
         href: meetings.html
@@ -17,6 +17,12 @@ navbar:
         href: rmarkdown_tutorial.html
       - text: "Journal Club"
         href: jc.html
+      - text: "RefreshRs"
+        href: refreshrs.html
+    - text: "PhD Students"
+      menu:
+      - text: "Thesis Template"
+        href: sussexthesis.html
     - text: "Supervisors"
       menu:
       - text: "R Resources"
@@ -25,7 +31,7 @@ navbar:
         href: errors.html
       - text: "R Help Desk"
         href: helpdesk.html
-    - text: "More"
+    - text: "Misc"
       menu:
       - text: "About"
         href: about.html

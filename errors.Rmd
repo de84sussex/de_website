@@ -16,8 +16,6 @@ Coming Soon!
 
 ### `Could not find function ".."`
 
-#### Causes
-
 This error usually occurs because the package which contains the function isn't loaded or the function isn't spelled correctly. 
 
 #### Solutions
@@ -28,6 +26,18 @@ This error usually occurs because the package which contains the function isn't 
 
 
 ### `Could not find function "%>%"`
+
+This error occurs because the `magrittr` package which contains the pipe operator %>% isn't loaded. 
+
+#### Solutions
+
+- Load the package with `library(magrittr)` or `library(tidyverse)`   
+
+<br>
+
+More coming soon!
+
+
 
 
 
