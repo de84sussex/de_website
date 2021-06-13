@@ -1,6 +1,7 @@
-name: "de_website"
 theme: dans-theme.css
+name: "de_website"
 title: "PROJECT SUPERVISION"
+favicon: img/books.png
 output_dir: "_site"
 navbar:
   logo:
