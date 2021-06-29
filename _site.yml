@@ -22,7 +22,7 @@ navbar:
         href: refreshrs.html
     - text: "PhD Students"
       menu:
-      - text: "Thesis Template"
+      - text: "R Thesis Template"
         href: sussexthesis.html
     - text: "Supervisors"
       menu:
@@ -32,6 +32,8 @@ navbar:
         href: errors.html
       - text: "R Help Desk"
         href: helpdesk.html
+      - text: "Sussex Data Share"
+        href: sds.html
     - text: "Misc"
       menu:
       - text: "About"

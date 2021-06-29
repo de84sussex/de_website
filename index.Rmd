@@ -37,7 +37,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - Search for [common erroRs](errors.html)  
 
-- Sign up to the [help desk](help.html)  
+- Sign up to the [R help desk](help.html)  
 
-
+- Share & access data from the [Sussex Data Share](sds.html)  
 

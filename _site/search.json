@@ -6,7 +6,7 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-13T22:19:13+01:00"
+      "last_modified": "2021-06-29T14:22:43+01:00"
     },
     {
       "path": "dissertation.html",
@@ -14,7 +14,7 @@
       "description": "Coming Soon!\n",
       "author": [],
       "contents": "\r\n\r\nContents\r\nImportant Dates\r\nA Very Rough Timeline\r\nAnalysis Plan\r\nWorking with Secondary Data\r\n\r\nImportant Dates\r\nEthics: week 8\r\nAnalysis plan: Dec\r\nFirst draft & feedback: TBD\r\nDissertation standard deadline: May 2022\r\nA Very Rough Timeline\r\nOct: Read up on topic area, decide on research question, hypotheses and methodology\r\nNov: Prepare materials, refine method and submit ethics\r\nDec: Do analysis plan, start data collection and draft method section\r\nJan: Continue data collection, start on analysis and draft intro\r\nFeb: Draft results and discussion\r\nMarch: Feedback on first draft\r\nApril: Final edits\r\nMay: Submit!! 🥳\r\nAnalysis Plan\r\nComing Soon!\r\nWorking with Secondary Data\r\nComing Soon!\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-13T22:19:16+01:00"
+      "last_modified": "2021-06-29T14:22:46+01:00"
     },
     {
       "path": "errors.html",
@@ -22,7 +22,7 @@
       "description": "This page includes a list of common R errors, their usual causes, and some solutions!\n",
       "author": [],
       "contents": "\r\n\r\nContents\r\nCould not find function \"..\"\r\nCould not find function \"%>%\"\r\n\r\nComing Soon!\r\nCould not find function \"..\"\r\nThis error usually occurs because the package which contains the function isn’t loaded or the function isn’t spelled correctly.\r\nSolutions\r\nCheck the package is loaded with library(package)\r\nCheck the function is spelled correctly\r\nCould not find function \"%>%\"\r\nThis error occurs because the magrittr package which contains the pipe operator %>% isn’t loaded.\r\nSolutions\r\nLoad the package with library(magrittr) or library(tidyverse)\r\n\r\nMore coming soon!\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-13T22:19:17+01:00"
+      "last_modified": "2021-06-29T14:22:47+01:00"
     },
     {
       "path": "guide.html",
@@ -30,22 +30,22 @@
       "description": "This page contains links to R resources focusing on each core topic covered to date!   \n",
       "author": [],
       "contents": "\r\n\r\nContents\r\nRStudio\r\nRMarkdown\r\nImporting Data\r\nCleaning & Wrangling Data\r\nSummarising Data\r\nStatistical Analyses\r\n\r\nComing Soon!\r\nRStudio\r\n\r\nA note on installing tutorials…\r\n\r\nRMarkdown\r\nComing Soon!\r\nImporting Data\r\nComing Soon!\r\nCleaning & Wrangling Data\r\nComing Soon!\r\nSummarising Data\r\nComing Soon!\r\nStatistical Analyses\r\nComing Soon!\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-13T22:19:19+01:00"
+      "last_modified": "2021-06-29T14:22:49+01:00"
     },
     {
       "path": "helpdesk.html",
       "title": "R Help Desk",
       "author": [],
       "contents": "\r\n\r\nContents\r\nHelp Desk Schedule\r\nForm\r\n\r\nYou can attend any help desk slot on the timetable, but it’s useful for us know the problem in advance. Please use the form to give a brief overview and the access link will be sent to you!\r\nHelp Desk Schedule\r\nComing soon!\r\n\r\nForm\r\nComing soon!\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-13T22:19:20+01:00"
+      "last_modified": "2021-06-29T14:22:50+01:00"
     },
     {
       "path": "index.html",
       "title": "Project Supervision",
       "description": "Coming Soon!\n",
       "author": [],
-      "contents": "\r\nUG Students\r\nFind out meeting information\r\nGet dissertation advice\r\nUse the RMarkdown tutorial to help you write your dissertation\r\nSend in your submissions to the journal club\r\nAccess the refreshRs\r\nPhD Students\r\nWrite your thesis in R with the sussexthesis package\r\nSupervisors\r\nAccess the R resources\r\nSearch for common erroRs\r\nSign up to the help desk\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-13T22:19:21+01:00"
+      "contents": "\r\nUG Students\r\nFind out meeting information\r\nGet dissertation advice\r\nUse the RMarkdown tutorial to help you write your dissertation\r\nSend in your submissions to the journal club\r\nAccess the refreshRs\r\nPhD Students\r\nWrite your thesis in R with the sussexthesis package\r\nSupervisors\r\nAccess the R resources\r\nSearch for common erroRs\r\nSign up to the R help desk\r\nShare & access data from the Sussex Data Share\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-29T14:22:51+01:00"
     },
     {
       "path": "jc.html",
@@ -53,7 +53,7 @@
       "description": "Share any interesting articles and helpful resources!\n",
       "author": [],
       "contents": "\r\n\r\nContents\r\nSubmit Your Article\r\nEducational Outcomes 📚\r\nStatistics Education 📊\r\nGeneral Cool Stuff 🤩\r\n\r\nSubmit Your Article\r\n\r\nClick to submit!\r\n\r\nLoading…\r\n\r\nEducational Outcomes 📚\r\nEvans, D., & Field, A. P. (2020). Maths attitudes, school affect and teacher characteristics as predictors of maths attainment trajectories in primary and secondary education. Royal Society Open Science, 7(10), 200975.\r\nEvans, D., & Field, A. P. (2020). Predictors of mathematical attainment trajectories across the primary-to-secondary education transition: Parental factors and the home environment. Royal Society Open Science, 7(7), 200422.\r\nEvans, D., Gaysina, D., & Field, A. P. (2020). Internalizing symptoms and working memory as predictors of mathematical attainment trajectories across the primary–secondary education transition. Royal Society Open Science, 7(5), 191433.\r\nField, A. P., Evans, D., Bloniewski, T., & Kovas, Y. (2019). Predicting maths anxiety from mathematical achievement across the transition from primary to secondary education. Royal Society Open Science, 6(11), 191459.\r\nEvans, D., Borriello, G. A., & Field, A. P. (2018). A review of the academic and psychological impact of the transition to secondary education. Frontiers in Psychology, 9.\r\nStatistics Education 📊\r\nField, A. P. & Terry, J. C. (2018). A pilot study of whether fictional narratives are useful in teaching statistical concepts.\r\nSmith, T. (2017). Gamified Modules for an Introductory Statistics Course and Their Impact on Attitudes and Learning. Simulation & Gaming, 48(6), 832–854.\r\nGeneral Cool Stuff 🤩\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-13T22:19:23+01:00"
+      "last_modified": "2021-06-29T14:22:52+01:00"
     },
     {
       "path": "meetings.html",
@@ -61,7 +61,7 @@
       "description": "This page contains all the information about our meetings for this term!   \n",
       "author": [],
       "contents": "\r\n\r\nContents\r\nSemester One\r\nPadlet\r\n\r\nSemester One\r\nWeek\r\nAgenda\r\nNotes\r\n0\r\nComplete the groundwork form before Week 1!\r\n\r\n1\r\nIntros, groundwork form, R Project, future meetings\r\nBring your device!\r\n2\r\nTBD\r\n\r\n3\r\nTBD\r\n\r\n4\r\nTBD\r\n\r\n5\r\nTBD\r\n\r\n6\r\nTBD\r\n\r\n7\r\nTBD\r\n\r\n8\r\nTBD\r\n\r\n9\r\nTBD\r\n\r\n10\r\nTBD\r\n\r\n11\r\nTBD\r\n\r\n\r\nRemember to record the outcome of all meetings on Sussex Direct!\r\n\r\nPadlet\r\nUse the Padlet to post any questions/comments/concerns for discussion at our next meeting!\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-13T22:19:24+01:00"
+      "last_modified": "2021-06-29T14:22:53+01:00"
     },
     {
       "path": "refreshrs.html",
@@ -69,7 +69,7 @@
       "description": "Coming soon!  \n",
       "author": [],
       "contents": "\r\nComing Soon!\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-13T22:19:25+01:00"
+      "last_modified": "2021-06-29T14:22:54+01:00"
     },
     {
       "path": "rmarkdown_tutorial.html",
@@ -77,15 +77,23 @@
       "description": "Work through this tutorial & the task boxes to help you get started with writing your dissertation in RMarkdown!  \n",
       "author": [],
       "contents": "\r\n\r\nContents\r\nWorkflow\r\nInstalling papaja\r\nUsing papaja\r\nYAML Options\r\nReferencing & .bib files\r\nInserting Student Support Stickers in R\r\n& that’s all there is to it! 💃 🥳\r\n\r\nWorkflow\r\nThe best way to work within R is to create an R Project for each specific project you work on. This idea applies to your dissertation too where it’s best to create an R Project solely for your dissertation.\r\n\r\nCreate a dissertation R Project in a sensible location on your device\r\n\r\nYou should use this newly created R Project for all dissertation related files to keep everything all in one place and nicely organised.\r\nYou should then aim to create the following folders:\r\ndata\r\nr_docs\r\nmisc_docs\r\nreferences\r\nWithin these folders, data should contain any raw data, r_docs should contain any Rmds or R scripts, misc_docs (or just docs if you prefer) should contain any documents not created in RStudio such as ethics forms, and references should contain saved copies of articles you have read and will cite in your writeup, and .bib files (more on these later..). You don’t have to follow this workflow at all, but you might find it helpful to structure your files in this way so that things don’t get muddled!\r\n\r\nWithin the R Project you’ve just created, create 4 folders to contain your data, r_docs, misc_docs, and references (or use whichever names you prefer)\r\n\r\n\r\nInstalling papaja\r\npapaja is an R package that contains an Rmd template for producing APA style reports. It’s what I recommend to use when writing up your dissertation in RMarkdown to create a pretty report when you knit your document (it’s also what I wrote my PhD thesis with & is one of my fave packages, in close competition with the BRRR package - seriously, go check it out right now! 😎).\r\nWith papaja you can knit your Rmd to a pdf or word document so you can use whichever format you prefer, and it’s just a really nice way of creating reproducible analyses that are super pretty with your report automatically formatted in APA style - a total win-win!\r\nIt’s best to install papaja as soon as possible in the semester (ideally week 1) so that I can troubleshoot any problems early on. The following steps will guide you through the installation process.\r\nStep 1: install a TeX distribution\r\nLaTeX is needed when knitting from an Rmd to a pdf document. Installing a TeX distribution on your device is arguably the worst part of the installation process. For more info see the installation details..\r\nTo install it in RStudio, you can run the following lines in the console:\r\n\r\n\r\nif(!\"tinytex\" %in% rownames(installed.packages())) install.packages(\"tinytex\")\r\n\r\ntinytex::install_tinytex()\r\n\r\n\r\n\r\nStep 2: install papaja\r\nInstalling the papaja package is more straightforward, firstly we need to check that we have devtools installed (the first line below), and secondly we need to install papaja from github rather than from the cran (the second line).\r\n\r\n\r\nif(!\"devtools\" %in% rownames(installed.packages())) install.packages(\"devtools\")\r\n\r\ndevtools::install_github(\"crsh/papaja\")\r\n\r\n\r\n\r\n\r\nInstall tinytex and papaja using the code above!\r\n\r\n\r\nUsing papaja\r\nOnce everything’s installed, the Rmd template from the papaja package can be easily accessed through the main menu. To open the template go to File > New File > R Markdown… in the window that pops up, click on From Template > APA article (6th edition) > OK\r\n\r\nOpen the APA article template using the instructions above\r\n\r\nThis template is very similar to the standard Rmd that you’re used to working with previously. The template still contains three main components:\r\nThe YAML for document metadata\r\nR Code Chunks for code\r\nMarkdown for your main writeup\r\nThe main difference between this template and a normal Rmd is that the YAML just contains some additional options.\r\n\r\nKnit the document as it is to check it all works!\r\n\r\nAfter knitting, you should have an APA style article magically appear! 🤩\r\n\r\nYour dissertation should be submitted with the file name: cand_no_report\r\nWhen creating the Rmd for your dissertation writeup, save it with this file name from the start to avoid any issues later on & remember to save it in the r_docs folder of your R Project as suggested in the workflow\r\n\r\n\r\nYAML Options\r\nYou might notice in the Rmd that there are quite a few extra YAML options we can set that will change various parts of the document. Some of these options are more useful/relevant than others so I’ve included the main ones you’ll be using below, and the rest you can delete from the YAML.\r\n\r\n\r\n\r\n\r\nTo avoid more errors & to check your wordcount & spelling more accurately, I recommend knitting to a Word doc\r\nThis is easily changed in the final line of the YAML above!\r\n\r\n\r\nReferencing & .bib files\r\nTo automatically reference articles/books/other sources in RMarkdown, the setup is slightly different to what you will have used previously. Instead, we use BibTeX references which we include within a .bib file that we specify in the YAML of our Rmd (see image above). There are many pros to using this approach in that you don’t ever have to worry again about formatting your in-text citations to APA style, and that your reference list is automatically generated and formatted (amazing right?!)\r\nThese files can feel (& look) a little confusing to start with but I personally find it much better this way than what I did before and once you get the hang of it it’s much quicker!\r\nTo create a .bib file it’s super easy, just follow the steps below!\r\n\r\nIn your dissertation R Project, open up your working directory by going to the Files Pane > More > Show Folder in New Window\r\n\r\nIf you completed the task box above, your dissertation R Project folder should now open.\r\n\r\nIn this folder, open a new plain text document by right-click > New > Text Document & name it diss_references (or whatever you prefer)\r\nOnce created, rename the file to have a .bib extension rather than a .txt extension & you will have created your .bib file!\r\nThen move this file to the references folder of your R Project to keep with the workflow\r\n\r\n\r\nOK, so now we have created our .bib file, there are two things we need to do:\r\nAdd this filename to the bibliography part of the YAML in our Rmd\r\nAdd some references\r\nFor step 1, it’s nice and simple, we just need to include the file name like the example below:\r\n\r\n\r\n\r\n\r\nAdd the .bib file you just created to the YAML\r\n\r\n\r\nNow we need to add some references to our .bib file!\r\nBibTeX references look like this:\r\n\r\n\r\n\r\nWhere “article” is the type of the source, “evans2020internalizing” is the label, and the remaining fields refer to the different components of a bibliography item. The BibTeX references of articles are given on many journal webpages, but the easiest way to get them IMO is by using the Google Scholar Button for Chrome (see the steps below).\r\n\r\n\r\n\r\n\r\nSearch for a relevant article & copy/paste the entry to your .bib file (you can open the .bib file in RStudio)\r\n\r\n\r\n& finally we need to insert the references to the Rmd!\r\nThere are two ways of inserting references, you can do it manually by inputting the BibTeX label, or you can use the citr RStudio add-in which allows you to search for the reference from the .bib file.\r\nTo insert them by hand, it’s super straightforward, the table below (taken from the papaja manual) shows you how to include the reference label and what will be shown in the knitted file.\r\n\r\n\r\n\r\n\r\nAlternatively, you can use the citr addin to search for the references in your .bib file.\r\n\r\n\r\n\r\n\r\n\r\nYou will see a “References” section at the end of the papaja template, you don’t need to edit this, just leave it as it is - everything is automatic!\r\n\r\n\r\nReferencing R Packages\r\nYou will see the below code in the papaja Rmd template. What this does is automatically include any packages you use within the references section. You don’t need to edit this is anyway, just leave as it is and remember to cite the R packages you use for analysis in the method/results section of your report.\r\n\r\n\r\nlibrary(\"papaja\")\r\nr_refs(\"r-references.bib\")\r\n\r\n\r\n\r\n\r\nInserting Student Support Stickers in R\r\nIncluding a student support sticker when writing your dissertation in R is super straightforward; you can use the code below modifying the file path to where your sticker is saved (this could be in the misc_docs folder of your R Project for example), and should be included in a code chunk in the most appropriate section of your Rmd.\r\n\r\n\r\nknitr::include_graphics(\"path_to_file\")\r\n\r\n\r\n\r\n\r\n& that’s all there is to it! 💃 🥳\r\nYou can now start writing up your dissertation in RMarkdown woohoo!\r\nThere are a few things to keep in mind to make this process easier:\r\nKnit often and after any major additions/changes, errors can be tricky to solve so knitting often will help you catch where problems occur\r\nMake sure your file knits before you leave it for the day, it’s better to work on knitting problems whilst everything you’ve been working on is fresh in your mind\r\nMake sure your references are complete and correct as you go - don’t leave it until you have 100 references to go back to and check the page numbers of\r\nBy default, papaja sets global chunk options to echo = F (code is run but hidden) & messages = F, sometimes you might want to set warnings = F too\r\npapaja reports all numeric values written using inline code to 2 dp by default\r\nTo report any equations in your Rmd, enclose it within $\r\nReferences of ‘???’ highlight errors, check the entry exists in your .bib file & check the spelling of it in your Rmd\r\nRemember that no duplicate chunk labels are allowed - this will cause an error\r\nDon’t install packages in your code chunks - use the console\r\nGoogle really is your best friend for any errors\r\nTry to troubleshoot problems yourself before coming to me - I’m here to help and support you but your dissertation is an independent research project after all\r\n\r\n& Finally, Good Luck! 🌟\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-13T22:19:28+01:00"
+      "last_modified": "2021-06-29T14:22:57+01:00"
+    },
+    {
+      "path": "sds.html",
+      "title": "Sussex Data Share",
+      "description": "Coming soon!  \n",
+      "author": [],
+      "contents": "\r\nComing Soon!\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-29T14:22:58+01:00"
     },
     {
       "path": "sussexthesis.html",
-      "title": "Thesis Template",
+      "title": "R Thesis Template",
       "description": "sussexthesis package coming soon!\n",
       "author": [],
-      "contents": "\r\n\r\nContents\r\nWorkflow\r\nGitHub\r\n\r\n\r\n\r\n\r\n\r\nsussexthesis package\r\nComing Soon!\r\n\r\nWorkflow\r\nComing Soon!\r\nGitHub\r\nComing Soon!\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-13T22:19:29+01:00"
+      "contents": "\r\n\r\n \r\nsussexthesis package\r\nThe sussexthesis package is based on Chester Ismay’s thesisdown package. The package includes a thesis template that is designed to be compatible with the submission requirements of the University of Sussex, with some additional APA formatting. The package is under active development and currently only works when knitting to pdf.\r\n\r\nUsing sussexthesis\r\nFollow the thesisdown setup guide before installing sussexthesis package as detailed below:\r\n\r\n\r\n# Install devtools\r\ninstall.packages(\"devtools\")\r\nlibrary(devtools)\r\n\r\n# Install sussexthesis\r\ndevtools::install_github(\"de84sussex/sussexthesis\")\r\nlibrary(sussexthesis)\r\n\r\n\r\n\r\nTips & Tricks\r\nA user guide is given in the index.Rmd file & describes how to use the template\r\nSome additional tips for correctly using headings are given in the 01-chap1.Rmd file\r\nThe formatting is applied automatically, but you can hack it by using LaTeX & Markdown in the file you wish to edit\r\nThe package is somewhat experimental, if you run into any problems please let me know! \r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-29T14:23:00+01:00"
     }
   ],
   "collections": []
