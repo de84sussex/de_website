@@ -1,7 +1,7 @@
 ---
 title: "R Thesis Template"
 description: |
-  sussexthesis package coming soon!
+  Write your thesis in R!
 output:
   distill::distill_article:
     toc: true
