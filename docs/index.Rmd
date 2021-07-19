@@ -1,0 +1,245 @@
+---
+title: "Teaching Demonstration: GLM in R"
+author: "Dr Danielle Evans | University of Sussex"
+date: "23 April 2021"
+output:
+  xaringan::moon_reader:
+    css: ["xaringan-themer.css", "ppt_style.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      highlightSpans: true
+      ratio: '16:9'
+---
+
+```{r setup, include=FALSE}
+library(xaringanthemer)
+library(xaringanExtra)
+library(tidyverse)
+library(broom)
+
+options(htmltools.dir.version = FALSE)
+xaringanExtra::use_clipboard()
+xaringanExtra::use_editable(expires = 1)
+
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+
+style_mono_light(
+  base_color = "#23395b"
+)
+
+#data <- readr::read_csv("data/tidy_tracks.csv")
+
+#lm_pop <- data %>% 
+ # lm(popularity ~ danceability, data = .)
+
+```
+
+
+# Session Overview
+
+- Teaching demonstration
+
+  + Form hypothesis & collect data  
+
+  + Data wrangling & initial checks     
+  
+  + **Fit a linear model**   
+  
+  + Model evaluation 
+  
+  + Assumption checks  
+
+
+
+
+
+--
+
+<br>
+
+- Contributions & fit within the school
+
+
+
+
+---
+
+# Research Question
+
+--
+
+.pull-left[
+
+- Can the popularity of recently released songs be predicted from their 'danceability'? 
+
+]
+
+
+.pull-right[
+
+```{r gif1, echo=FALSE, fig.align='center', out.width="55%", fig.cap="'Unwritten' TikTok dance by Gordon & Tilly Ramsay"}
+
+knitr::include_graphics("./images/gr2.gif")
+
+```
+
+]
+
+
+---
+
+# Research Question
+
+
+.pull-left[
+
+- Can the popularity of recently released songs be predicted from their 'danceability'? 
+
+
+<br>
+
+### Data
+
+- Random sample of 300 songs from Spotify that were released in 2020  
+
+- Variables are song popularity & danceability scored from 0 - 100 (100 = most popular/danceable)   
+
+- For extRa practice: [`spotifyr` package](https://www.rcharlie.com/spotifyr/) & download the [Spotify access RMarkdown tutorial](https://and.netlify.app/seminr/03/level_up/levelup_03.Rmd)
+
+]
+
+.pull-right[
+
+```{r gif2, echo=FALSE, fig.align='center', out.width="55%", fig.cap="'Unwritten' TikTok dance by Gordon & Tilly Ramsay"}
+
+knitr::include_graphics("./images/gr2.gif")
+
+```
+
+]
+
+
+
+
+---
+
+# General Linear Model
+
+.center[
+.large[
+
+$\hat{y_{i}} = \hat{b}_{0} + \hat{b}_{1}X_{1i} + e_{i}$
+
+]
+]
+
+
+--
+
+<br>
+
+### Our Model
+
+.center[
+.large[
+
+$\widehat{Popularity_{i}} = \hat{b}_{0} + \hat{b}_{1}Danceability_{i} + e_{i}$
+
+]
+]
+
+<br>
+<br>
+<br>
+
+
+
+
+
+---
+
+# `lm()` function in R
+
+.center[
+
+```{r, eval = F}
+
+lm(outcome ~ predictor, data = our_data)
+
+```
+
+]
+
+
+--
+
+.center[
+
+
+Based on our model: $\widehat{Popularity_{i}} = \hat{b}_{0} + \hat{b}_{1}Danceability_{i} + e_{i}$
+
+
+<iframe src="https://embed.polleverywhere.com/multiple_choice_polls/5g4UdJ3xtDmuTMGugaNSI?controls=none&short_poll=true" width="90%" height="300px"></iframe>
+
+]
+
+
+
+???
+
+using this qr code or link: 
+
+
+https://PollEv.com/devans469
+
+https://PollEv.com/multiple_choice_polls/STgCJQQREovRdfxZCBKIA/respond
+
+
+
+---
+class: center, middle
+
+# Let's give it a go! 
+
+
+
+
+
+---
+
+# Current Challenges & My Contributions 
+
+- Disengaged & less confident students
+
+  - Weekly SeminRs  
+
+  - R catch-up courses: WinteR Recap, SummeR School, Pre-semesteR RefresheR  
+
+<br>
+
+- Supporting wider academic activities
+
+  - Support faculty switching to R with tailored workshops 
+  
+  - Assist faculty supervising dissertation students in R 
+
+  - Promoting & teaching open science practices 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

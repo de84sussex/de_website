@@ -18,8 +18,8 @@ navbar:
         href: rmarkdown_tutorial.html
       - text: "Journal Club"
         href: jc.html
-      - text: "RefreshRs"
-        href: refreshrs.html
+      - text: "End of SemestR TestR"
+        href: testeR.html
     - text: "PhD Students"
       menu:
       - text: "R Thesis Template"

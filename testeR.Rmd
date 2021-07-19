@@ -1,0 +1,122 @@
+---
+title: "End of SemestR TestR"
+description: |
+  Test your knowledge & identify areas to revise!  
+output:
+  distill::distill_article:
+    toc: true
+    toc_float: true
+    includes:
+      in_header: header.html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(emo)
+```
+
+Coming soon!
+
+The End of SemestR TestR is a (**fun**) quiz to check how much you've leaRnt this semester, to see what skills you're a total supeRstaR at, & to help you identify which topics to revise. The quiz covers the fundRmentals of R/RStudio & the key functions we've covered in the past semester. Your answers will be saved in your browser so you can come back to it later if you wish! 
+
+<!--
+
+### Using R & RStudio 
+
+- R & RStudio
+
+- Objects
+
+- Functions
+
+- Packages
+
+- R Projects
+
+
+### R Markdown
+
+- Code chunks
+
+- Inline code
+
+- Markdown formatting
+
+
+### Importing Data  
+
+- File paths 
+
+- `readr::read_csv()`
+
+- `here::here()`
+
+
+### Inspecting Data
+
+- `View()`
+
+- `print()`
+
+- `head()`
+
+- `tail()`
+
+- `nrow()`
+
+- `ncol()`
+
+- `class()`
+
+- `str()`
+
+- `summary()`
+
+- `class()`
+
+- `levels()`
+
+- `table()`
+
+
+### Wrangling Data 
+
+- `dplyr` functions: select() filter() mutate() n() %>% 
+
+
+
+### Summarising Data  
+
+- `summarise()`
+
+- `knitr::kable()`  
+
+
+### Data Viz
+
+- `ggplot2` functions 
+
+
+### Statistical Analyses  
+
+- t test & chi sq
+
+- Correlation
+
+- Linear model
+
+-->
+
+
+### The End of SemestR TestR
+
+<!---LEARNR EX 1-->
+
+<iframe style="margin: auto; min-width: 100%;" id="myIframe1" class="interactive" src="https://de-sussex.shinyapps.io/learnr_app1/" scrolling="no" frameborder="no"></iframe>
+
+<!---------------->
+
+
+<script>
+  iFrameResize({}, ".interactive");
+</script>

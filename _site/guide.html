@@ -23,6 +23,7 @@
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
 div.sourceCode { margin: 1em 0; }
 pre.sourceCode { margin: 0; }
@@ -87,7 +88,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_meta_tags-->
   <title>PROJECT SUPERVISION: R Resources</title>
 
-  <meta property="description" itemprop="description" content="This page contains links to R resources focusing on each core topic covered to date!"/>
+  <meta property="description" itemprop="description" content="This page contains links to R resources &amp; tutorials for each core topic covered in PAAS, AnD, DS &amp; QQM"/>
 
   <link rel="icon" type="image/png" href="img/books.png"/>
 
@@ -95,20 +96,20 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="PROJECT SUPERVISION: R Resources"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="This page contains links to R resources focusing on each core topic covered to date!"/>
+  <meta property="og:description" content="This page contains links to R resources &amp; tutorials for each core topic covered in PAAS, AnD, DS &amp; QQM"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="PROJECT SUPERVISION"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
   <meta property="twitter:title" content="PROJECT SUPERVISION: R Resources"/>
-  <meta property="twitter:description" content="This page contains links to R resources focusing on each core topic covered to date!"/>
+  <meta property="twitter:description" content="This page contains links to R resources &amp; tutorials for each core topic covered in PAAS, AnD, DS &amp; QQM"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","output"]}},"value":[{"type":"character","attributes":{},"value":["R Resources"]},{"type":"character","attributes":{},"value":["This page contains links to R resources focusing on each core topic covered to date!   \n"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_float"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"logical","attributes":{},"value":[true]}]}]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","output"]}},"value":[{"type":"character","attributes":{},"value":["R Resources"]},{"type":"character","attributes":{},"value":["This page contains links to R resources & tutorials for each core topic covered in PAAS, AnD, DS & QQM\n"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_float"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"logical","attributes":{},"value":[true]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2317,7 +2318,11 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.8/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.9.4/header-attrs.js"></script>
+  <script src="site_libs/clipboard-2.0.6/clipboard.min.js"></script>
+  <link href="site_libs/xaringanExtra-clipboard-0.2.4/xaringanExtra-clipboard.css" rel="stylesheet" />
+  <script src="site_libs/xaringanExtra-clipboard-0.2.4/xaringanExtra-clipboard.js"></script>
+  <script>window.xaringanExtraClipboard(null, {"button":"Copy Code","success":"Copied!","error":"Press Ctrl+C to Copy"})</script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2337,7 +2342,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"R Resources","description":"This page contains links to R resources focusing on each core topic covered to date!","authors":[]}
+{"title":"R Resources","description":"This page contains links to R resources & tutorials for each core topic covered in PAAS, AnD, DS & QQM","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2362,7 +2367,7 @@ UG Students
 <a href="dissertation.html">Dissertation Advice</a>
 <a href="rmarkdown_tutorial.html">RMarkdown Tutorial</a>
 <a href="jc.html">Journal Club</a>
-<a href="refreshrs.html">RefreshRs</a>
+<a href="testeR.html">End of SemestR TestR</a>
 </div>
 </div>
 <div class="nav-dropdown">
@@ -2410,7 +2415,7 @@ Misc
 <h1>R Resources</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>This page contains links to R resources focusing on each core topic covered to date!</p></p>
+<p><p>This page contains links to R resources &amp; tutorials for each core topic covered in PAAS, AnD, DS &amp; QQM</p></p>
 </div>
 
 
@@ -2419,30 +2424,257 @@ Misc
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#rstudio">RStudio</a></li>
-<li><a href="#rmarkdown">RMarkdown</a></li>
-<li><a href="#importing-data">Importing Data</a></li>
-<li><a href="#cleaning-wrangling-data">Cleaning &amp; Wrangling Data</a></li>
+<li><a href="#accessing-tutorials">Accessing Tutorials</a></li>
+<li><a href="#r-rstudio-general-computing">R, RStudio &amp; General Computing</a></li>
+<li><a href="#r-markdown">R Markdown</a></li>
+<li><a href="#importing-organising-data">Importing &amp; Organising Data</a></li>
+<li><a href="#inspecting-cleaning-wrangling-data">Inspecting, Cleaning &amp; Wrangling Data</a></li>
 <li><a href="#summarising-data">Summarising Data</a></li>
 <li><a href="#statistical-analyses">Statistical Analyses</a></li>
+<li><a href="#reporting-results">Reporting Results</a></li>
 </ul>
 </nav>
 </div>
-<p>Coming Soon!</p>
-<h3 id="rstudio">RStudio</h3>
-<div class="sol">
-<p>A note on installing tutorials…</p>
+<h3 id="accessing-tutorials">Accessing Tutorials</h3>
+<p>Much of the R content is delivered through interactive tutorials. These tutorials need to be installed &amp; run within RStudio. To install the packages required to run them (“learnr”, “remotes”, “paas”, &amp; “discovr”), type each of the commands in the code block below into the RStudio console one at a time and press Enter to run them.</p>
+<p>Following installation, tutorials can be accessed through the “Tutorial” tab in RStudio, or by running the relevant code in the console.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'><a href='https://rdrr.io/r/utils/install.packages.html'>install.packages</a></span><span class='op'>(</span><span class='st'>"learnr"</span><span class='op'>)</span>
+<span class='fu'><a href='https://rdrr.io/r/utils/install.packages.html'>install.packages</a></span><span class='op'>(</span><span class='st'>"remotes"</span><span class='op'>)</span>
+<span class='fu'>remotes</span><span class='fu'>::</span><span class='fu'><a href='https://remotes.r-lib.org/reference/install_github.html'>install_github</a></span><span class='op'>(</span><span class='st'>"SussexPsychMethods/PAAS"</span>, build <span class='op'>=</span> <span class='cn'>FALSE</span>, upgrade <span class='op'>=</span> <span class='st'>"never"</span><span class='op'>)</span>
+<span class='fu'>remotes</span><span class='fu'>::</span><span class='fu'><a href='https://remotes.r-lib.org/reference/install_github.html'>install_github</a></span><span class='op'>(</span><span class='st'>"profandyfield/discovr"</span><span class='op'>)</span>
+</code></pre>
 </div>
-<h3 id="rmarkdown">RMarkdown</h3>
-<p>Coming Soon!</p>
-<h3 id="importing-data">Importing Data</h3>
-<p>Coming Soon!</p>
-<h3 id="cleaning-wrangling-data">Cleaning &amp; Wrangling Data</h3>
-<p>Coming Soon!</p>
+</div>
+<p>Most R skills are covered in several modules &amp; in several tutorials/practicals. Where this repetition occurs, there are multiple resources to refer to for help!</p>
+<p><br></p>
+<h3 id="r-rstudio-general-computing">R, RStudio &amp; General Computing</h3>
+<ul>
+<li><p>Installation of R &amp; RStudio: <a href="https://canvas.sussex.ac.uk/courses/12684/pages/r-resources">PAAS 00</a></p></li>
+<li><p>Tours of RStudio: <a href="https://paas.netlify.app/tut01_alternative/">PAAS 01</a></p></li>
+<li><p>File paths:</p></li>
+</ul>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>learnr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/learnr/man/run_tutorial.html'>run_tutorial</a></span><span class='op'>(</span>name <span class='op'>=</span> <span class='st'>"02_files_paths_projects"</span>, package <span class='op'>=</span> <span class='st'>"paas"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<ul>
+<li><p>R Projects: <a href="https://paas.netlify.app/practicals/02_project_files/slides/#1">PAAS 03</a>, <a href="https://paas.netlify.app/practicals/07_organizing_data/slides/#1">PAAS 08</a></p></li>
+<li><p>R objects, functions &amp; packages: <a href="https://paas.netlify.app/practicals/04_writing_code/worksheets/">PAAS 05</a>, <a href="https://paas.netlify.app/practicals/05_data_structures/slides/#1">PAAS 06</a>, <a href="https://paas.netlify.app/practicals/06_packages_functions/slides/#1">PAAS 07</a>, <a href="https://paas.netlify.app/practicals/06_packages_functions/worksheets/?type=tutor">PAAS 07</a></p></li>
+</ul>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>learnr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/learnr/man/run_tutorial.html'>run_tutorial</a></span><span class='op'>(</span>name <span class='op'>=</span> <span class='st'>"04_basic_r"</span>, package <span class='op'>=</span> <span class='st'>"paas"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>learnr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/learnr/man/run_tutorial.html'>run_tutorial</a></span><span class='op'>(</span>name <span class='op'>=</span> <span class='st'>"05_objects_functions_data"</span>, package <span class='op'>=</span> <span class='st'>"paas"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>learnr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/learnr/man/run_tutorial.html'>run_tutorial</a></span><span class='op'>(</span>name <span class='op'>=</span> <span class='st'>"06_functions_packages"</span>, package <span class='op'>=</span> <span class='st'>"paas"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>learnr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/learnr/man/run_tutorial.html'>run_tutorial</a></span><span class='op'>(</span>name <span class='op'>=</span> <span class='st'>"discovr_01"</span>, package <span class='op'>=</span> <span class='st'>"discovr"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<p><br></p>
+<h3 id="r-markdown">R Markdown</h3>
+<ul>
+<li>Basic R Markdown: <a href="https://paas.netlify.app/practicals/03_r_markdown/slides/#1">PAAS 04</a></li>
+</ul>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>learnr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/learnr/man/run_tutorial.html'>run_tutorial</a></span><span class='op'>(</span>name <span class='op'>=</span> <span class='st'>"03_r_markdown"</span>, package <span class='op'>=</span> <span class='st'>"paas"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<ul>
+<li>Advanced R Markdown: <a href="https://and.netlify.app/tutorials/01/">AnD 01</a></li>
+</ul>
+<p><br></p>
+<h3 id="importing-organising-data">Importing &amp; Organising Data</h3>
+<ul>
+<li>Import tidy data:</li>
+</ul>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>learnr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/learnr/man/run_tutorial.html'>run_tutorial</a></span><span class='op'>(</span>name <span class='op'>=</span> <span class='st'>"07_organizing_data"</span>, package <span class='op'>=</span> <span class='st'>"paas"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<p><br></p>
+<h3 id="inspecting-cleaning-wrangling-data">Inspecting, Cleaning &amp; Wrangling Data</h3>
+<ul>
+<li><p>Inspecting data: <a href="https://and.netlify.app/practicals/03/worksheet/?sol=true#inspecting-data">AnD 03</a></p></li>
+<li><p>Wrangling data: <a href="https://paas.netlify.app/practicals/08_data_wrangling/slides/#1">PAAS 09</a></p></li>
+</ul>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>learnr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/learnr/man/run_tutorial.html'>run_tutorial</a></span><span class='op'>(</span>name <span class='op'>=</span> <span class='st'>"08_wrangling_data"</span>, package <span class='op'>=</span> <span class='st'>"paas"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<ul>
+<li>The pipe %&gt;% <a href="https://paas.netlify.app/practicals/09_grouping_summarising/slides/#1">PAAS 10</a>, <a href="https://and.netlify.app/tutorials/02/">AnD 02</a></li>
+</ul>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>learnr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/learnr/man/run_tutorial.html'>run_tutorial</a></span><span class='op'>(</span>name <span class='op'>=</span> <span class='st'>"09_summaries_and_pipes"</span>, package <span class='op'>=</span> <span class='st'>"paas"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<ul>
+<li><p>Data cleaning: <a href="https://and.netlify.app/practicals/03/worksheet/?sol=true#cleaning">AnD 03</a>, <a href="https://and.netlify.app/practicals/04/worksheet/?sol=true#part-1-data-cleaning">AnD 04</a></p></li>
+<li><p>Creating composites: <a href="https://and.netlify.app/tutorials/07/">AnD 07</a></p></li>
+<li><p>Checking dodgy data:</p></li>
+</ul>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>learnr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/learnr/man/run_tutorial.html'>run_tutorial</a></span><span class='op'>(</span>name <span class='op'>=</span> <span class='st'>"discovr_06"</span>, package <span class='op'>=</span> <span class='st'>"discovr"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<ul>
+<li>Centring variables:</li>
+</ul>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>learnr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/learnr/man/run_tutorial.html'>run_tutorial</a></span><span class='op'>(</span>name <span class='op'>=</span> <span class='st'>"discovr_10"</span>, package <span class='op'>=</span> <span class='st'>"discovr"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<p><br></p>
 <h3 id="summarising-data">Summarising Data</h3>
-<p>Coming Soon!</p>
+<ul>
+<li>Basic summary tables: <a href="https://paas.netlify.app/practicals/09_grouping_summarising/slides/#1">PAAS 10</a>, <a href="https://and.netlify.app/practicals/03/worksheet/?sol=true#descriptives">AnD 03</a></li>
+</ul>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>learnr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/learnr/man/run_tutorial.html'>run_tutorial</a></span><span class='op'>(</span>name <span class='op'>=</span> <span class='st'>"09_summaries_and_pipes"</span>, package <span class='op'>=</span> <span class='st'>"paas"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<ul>
+<li><p>Pretty tables: <a href="https://paas.netlify.app/practicals/10_tables_and_plots/slides/#1">PAAS 11</a></p></li>
+<li><p>Plots: <a href="https://paas.netlify.app/practicals/10_tables_and_plots/slides/#1">PAAS 11</a>, <a href="https://and.netlify.app/practicals/02/worksheet/?sol=true#part-2-tables-and-visualisations">AnD</a></p></li>
+</ul>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>learnr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/learnr/man/run_tutorial.html'>run_tutorial</a></span><span class='op'>(</span>name <span class='op'>=</span> <span class='st'>"discovr_05"</span>, package <span class='op'>=</span> <span class='st'>"discovr"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<ul>
+<li>Summary stats &amp; CIs:</li>
+</ul>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>learnr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/learnr/man/run_tutorial.html'>run_tutorial</a></span><span class='op'>(</span>name <span class='op'>=</span> <span class='st'>"discovr_02"</span>, package <span class='op'>=</span> <span class='st'>"discovr"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>learnr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/learnr/man/run_tutorial.html'>run_tutorial</a></span><span class='op'>(</span>name <span class='op'>=</span> <span class='st'>"discovr_03"</span>, package <span class='op'>=</span> <span class='st'>"discovr"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<p><br></p>
 <h3 id="statistical-analyses">Statistical Analyses</h3>
-<p>Coming Soon!</p>
+<ul>
+<li>Correlation: <a href="https://and.netlify.app/tutorials/05/">AnD 05</a></li>
+</ul>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>learnr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/learnr/man/run_tutorial.html'>run_tutorial</a></span><span class='op'>(</span>name <span class='op'>=</span> <span class='st'>"discovr_07"</span>, package <span class='op'>=</span> <span class='st'>"discovr"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<ul>
+<li><p>Chi-Square: <a href="https://and.netlify.app/tutorials/06/">AnD 06</a></p></li>
+<li><p>t-test: <a href="https://and.netlify.app/tutorials/07/">AnD 07</a></p></li>
+</ul>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>learnr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/learnr/man/run_tutorial.html'>run_tutorial</a></span><span class='op'>(</span>name <span class='op'>=</span> <span class='st'>"discovr_09"</span>, package <span class='op'>=</span> <span class='st'>"discovr"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<ul>
+<li>Linear model: <a href="https://and.netlify.app/tutorials/08/">AnD 08</a>, <a href="https://and.netlify.app/tutorials/09/">AnD 09</a>, <a href="https://and.netlify.app/tutorials/10/">AnD 10</a>, <a href="https://and.netlify.app/tutorials/11/">AnD 11</a></li>
+</ul>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>learnr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/learnr/man/run_tutorial.html'>run_tutorial</a></span><span class='op'>(</span>name <span class='op'>=</span> <span class='st'>"discovr_08"</span>, package <span class='op'>=</span> <span class='st'>"discovr"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>learnr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/learnr/man/run_tutorial.html'>run_tutorial</a></span><span class='op'>(</span>name <span class='op'>=</span> <span class='st'>"discovr_11"</span>, package <span class='op'>=</span> <span class='st'>"discovr"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>learnr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/learnr/man/run_tutorial.html'>run_tutorial</a></span><span class='op'>(</span>name <span class='op'>=</span> <span class='st'>"discovr_12"</span>, package <span class='op'>=</span> <span class='st'>"discovr"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>learnr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/learnr/man/run_tutorial.html'>run_tutorial</a></span><span class='op'>(</span>name <span class='op'>=</span> <span class='st'>"discovr_13"</span>, package <span class='op'>=</span> <span class='st'>"discovr"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>learnr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/learnr/man/run_tutorial.html'>run_tutorial</a></span><span class='op'>(</span>name <span class='op'>=</span> <span class='st'>"discovr_14"</span>, package <span class='op'>=</span> <span class='st'>"discovr"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>learnr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/learnr/man/run_tutorial.html'>run_tutorial</a></span><span class='op'>(</span>name <span class='op'>=</span> <span class='st'>"discovr_15"</span>, package <span class='op'>=</span> <span class='st'>"discovr"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<ul>
+<li>Moderation &amp; mediation:</li>
+</ul>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>learnr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/learnr/man/run_tutorial.html'>run_tutorial</a></span><span class='op'>(</span>name <span class='op'>=</span> <span class='st'>"discovr_10"</span>, package <span class='op'>=</span> <span class='st'>"discovr"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<ul>
+<li>Exploratory factor analysis:</li>
+</ul>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>learnr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/learnr/man/run_tutorial.html'>run_tutorial</a></span><span class='op'>(</span>name <span class='op'>=</span> <span class='st'>"discovr_18"</span>, package <span class='op'>=</span> <span class='st'>"discovr"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<p><br></p>
+<h3 id="reporting-results">Reporting Results</h3>
+<ul>
+<li>Inline code: <a href="https://and.netlify.app/tutorials/05/#optional-inline-coding">AnD 05</a></li>
+</ul>
+<p><br></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

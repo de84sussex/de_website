@@ -23,7 +23,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - Send in your submissions to the [journal club](jc.html)  
 
-- Access the [refreshRs](refreshrs.html)
+- Put your skills to the test with the [End of SemestR TestR](testeR.html)
 
 
 ## PhD Students
@@ -37,7 +37,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - Search for [common erroRs](errors.html)  
 
-- Sign up to the [R help desk](help.html)  
+- Sign up to the [R help desk](helpdesk.html)  
 
 - Share & access data from the [Sussex Data Share](sds.html)  
 
