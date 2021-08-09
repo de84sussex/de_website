@@ -17,13 +17,13 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - Find out [meeting information](meetings.html)
 
-- Get [dissertation advice](dissertation.html)
+- Get [dissertation support](dissertation.html)
 
 - Use the [RMarkdown tutorial](rmarkdown_tutorial.html) to help you write your dissertation
 
 - Send in your submissions to the [journal club](jc.html)  
 
-- Put your skills to the test with the [End of SemestR TestR](testeR.html)
+<!-- - Put your skills to the test with the [End of SemestR TestR](testeR.html) -->
 
 
 ## PhD Students
@@ -31,13 +31,13 @@ knitr::opts_chunk$set(echo = FALSE)
 - Write your thesis in R with the [sussexthesis package](sussexthesis.html)
 
 
-## Supervisors
+<!-- ## Supervisors -->
 
-- Access the [R resources](guide.html)  
+<!-- - Access the [R resources](guide.html)   -->
 
-- Search for [common erroRs](errors.html)  
+<!-- - Search for [common erroRs](errors.html)   -->
 
-- Sign up to the [R help desk](helpdesk.html)  
+<!-- - Sign up to the [R help desk](helpdesk.html)   -->
 
-- Share & access data from the [Sussex Data Share](sds.html)  
+<!-- - Share & access data from the [Sussex Data Share](sds.html)   -->
 

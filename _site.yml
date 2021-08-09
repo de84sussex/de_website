@@ -12,28 +12,28 @@ navbar:
       menu:
       - text: "Meetings"
         href: meetings.html
-      - text: "Dissertation Advice"
+      - text: "Dissertation Info"
         href: dissertation.html
       - text: "RMarkdown Tutorial"
         href: rmarkdown_tutorial.html
       - text: "Journal Club"
         href: jc.html
-      - text: "End of SemestR TestR"
-        href: testeR.html
+      # - text: "End of SemestR TestR"
+      #   href: testeR.html
     - text: "PhD Students"
       menu:
       - text: "R Thesis Template"
         href: sussexthesis.html
-    - text: "Supervisors"
-      menu:
-      - text: "R Resources"
-        href: guide.html
-      - text: "ErroR Search"
-        href: errors.html
-      - text: "R Help Desk"
-        href: helpdesk.html
-      - text: "Sussex Data Share"
-        href: sds.html
+    # - text: "Supervisors"
+    #   menu:
+    #   - text: "R Resources"
+    #     href: guide.html
+    #   - text: "ErroR Search"
+    #     href: errors.html
+    #   - text: "R Help Desk"
+    #     href: helpdesk.html
+    #   - text: "Sussex Data Share"
+    #     href: sds.html
     - text: "Misc"
       menu:
       - text: "About"

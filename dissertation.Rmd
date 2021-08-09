@@ -1,5 +1,5 @@
 ---
-title: "Dissertation Advice"
+title: "Dissertation Info"
 description: |
   Coming Soon!
 output:
@@ -46,7 +46,10 @@ May: Submit!! `r emo::ji("partying_face")`
 
 ### Analysis Plan
 
-Coming Soon! 
+
+An analysis plan is a very useful tool that helps you to ensure that your method is appropriate to test your hypotheses. By thinking about your analysis in advance, you can better anticipate any problems with your design that could negatively impact the quality of your data. Writing up the method section of your dissertation is also much easier when you have already completed an analysis plan that you can refer back to. You should complete the [Dissertation Analysis Plan](./docs/DAP.docx) prior to collecting any data.  
+
+
 
 
 ### Working with Secondary Data
