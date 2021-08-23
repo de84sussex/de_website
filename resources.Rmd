@@ -1,11 +1,8 @@
 ---
-title: "R Resources"
-description: |
-  This page contains links to R resources & tutorials for each core topic covered in PAAS, AnD, DS & QQM
+title: "R-dex"
 output:
   distill::distill_article:
-    toc: true
-    toc_float: true
+    toc: false
 ---
 
 ```{r setup, include=FALSE}
@@ -14,42 +11,24 @@ library(xaringanExtra)
 xaringanExtra::use_clipboard()
 ```
 
-### Accessing Tutorials
 
-Most R skills are covered in several tutorials/practicals in different modules. Where this repetition occurs, there are multiple resources to refer to for help. 
+```{css}
+d-title, d-byline {
+  display: none
+}
 
-Some of these R resources include interactive tutorials. These tutorials need to be installed & run within RStudio. To install the packages required to run them ("learnr", "remotes", "paas", & "discovr"), type each of the commands in the code block below into the RStudio console one at a time and press Enter to run them.
+.distill-site-header{
+  display: none
+}
+
+.main-container {
+  max-width: 100%;
+}
 
 
-```{r, eval = F, echo = T}
 
-install.packages("learnr")
-install.packages("remotes")
-remotes::install_github("SussexPsychMethods/PAAS", build = FALSE, upgrade = "never")
-remotes::install_github("profandyfield/discovr")
 
 ```
-
-
-Following installation, tutorials can be accessed through the "Tutorial" tab in RStudio, or by running the relevant code in the console, i.e.,
-
-
-```{r, eval = F, echo = T}
-
-learnr::run_tutorial("discovr_01", package = "discovr")
-
-```
-
-
-
-
-### The R-dex
-
-
-Use the table below & hover over the modules to find out what resources cover each topic (i.e., tutorials (tut), practicals (pract) & seminars (sem)), & what week on Canvas to find them! 
-
-
-<!-- Use the table below & hover over the pop up boxes to find out where you can find resources from stats modules & optional sessions @ Sussex! -->
 
 - Psychology as a Science (PAAS) <a href="https://canvas.sussex.ac.uk/courses/10404" target="_blank"><img src="./img/PAAS.png"  style="width:4%;height:4%"></a>  
 
@@ -64,8 +43,6 @@ Use the table below & hover over the modules to find out what resources cover ea
 
 
 <br>
-
-<div id = "tab">
 
 <table style="width:100%">
   <tr>
@@ -313,5 +290,3 @@ Use the table below & hover over the modules to find out what resources cover ea
 
 
 </table>
-
-</div>
