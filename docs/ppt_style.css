@@ -14,9 +14,13 @@
 .pink {color: lightpink}
 
 
-a:hover {
+a {
   border-bottom: 1px solid orange;
   font-weight: bold;}
+
+a:hover {
+  border-bottom: 2px solid orange;
+}
 
 
 .large {
@@ -37,11 +41,9 @@ a:hover {
 }
 
 
-
-
-
 .teeny .remark-code { /*Change made here*/
   font-size: 60% !important;
 }
+
 
 

@@ -1,7 +1,8 @@
 ---
-title: "Teaching Demonstration: GLM in R"
+title: | 
+  Knowing *what* you know: analysing your data
 author: "Dr Danielle Evans | University of Sussex"
-date: "23 April 2021"
+date: "1 March 2022"
 output:
   xaringan::moon_reader:
     css: ["xaringan-themer.css", "ppt_style.css"]
@@ -27,183 +28,37 @@ xaringanExtra::use_editable(expires = 1)
 
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 
-style_mono_light(
-  base_color = "#23395b"
-)
+#style_mono_light(
+ # base_color = "#102347"
+#)
 
-#data <- readr::read_csv("data/tidy_tracks.csv")
-
-#lm_pop <- data %>% 
- # lm(popularity ~ danceability, data = .)
 
 ```
 
+# BLURB
 
-# Session Overview
 
-- Teaching demonstration
+## Overview
 
-  + Form hypothesis & collect data  
+Knowing *what* you know: Analysing your data with Danielle Evans 
 
-  + Data wrangling & initial checks     
-  
-  + **Fit a linear model**   
-  
-  + Model evaluation 
-  
-  + Assumption checks  
+Conducting your analyses can often feel very overwhelming - trying to figure out where to start can make you feel like you have no idea what you're doing, which can lead to procrastination and stress. This workshop intends to help you avoid getting stuck, and instead, help you get stuck in to your analyses by serving as a reminder of the huge range of analytical skills you have developed throughout your degree, and how you can put them into practice.  
 
-
-
-
-
---
-
-<br>
-
-- Contributions & fit within the school
-
-
-
-
----
-
-# Research Question
-
---
-
-.pull-left[
-
-- Can the popularity of recently released songs be predicted from their 'danceability'? 
-
-]
-
-
-.pull-right[
-
-```{r gif1, echo=FALSE, fig.align='center', out.width="55%", fig.cap="'Unwritten' TikTok dance by Gordon & Tilly Ramsay"}
-
-knitr::include_graphics("./images/gr2.gif")
-
-```
-
-]
-
-
----
-
-# Research Question
-
-
-.pull-left[
-
-- Can the popularity of recently released songs be predicted from their 'danceability'? 
-
-
-<br>
-
-### Data
-
-- Random sample of 300 songs from Spotify that were released in 2020  
-
-- Variables are song popularity & danceability scored from 0 - 100 (100 = most popular/danceable)   
-
-- For extRa practice: [`spotifyr` package](https://www.rcharlie.com/spotifyr/) & download the [Spotify access RMarkdown tutorial](https://and.netlify.app/seminr/03/level_up/levelup_03.Rmd)
-
-]
-
-.pull-right[
-
-```{r gif2, echo=FALSE, fig.align='center', out.width="55%", fig.cap="'Unwritten' TikTok dance by Gordon & Tilly Ramsay"}
-
-knitr::include_graphics("./images/gr2.gif")
-
-```
-
-]
-
-
-
-
----
-
-# General Linear Model
-
-.center[
-.large[
-
-$\hat{y_{i}} = \hat{b}_{0} + \hat{b}_{1}X_{1i} + e_{i}$
-
-]
-]
-
-
---
-
-<br>
-
-### Our Model
-
-.center[
-.large[
-
-$\widehat{Popularity_{i}} = \hat{b}_{0} + \hat{b}_{1}Danceability_{i} + e_{i}$
-
-]
-]
-
-<br>
-<br>
-<br>
-
-
-
-
-
----
-
-# `lm()` function in R
-
-.center[
-
-```{r, eval = F}
-
-lm(outcome ~ predictor, data = our_data)
-
-```
-
-]
-
-
---
-
-.center[
-
-
-Based on our model: $\widehat{Popularity_{i}} = \hat{b}_{0} + \hat{b}_{1}Danceability_{i} + e_{i}$
-
-
-<iframe src="https://embed.polleverywhere.com/multiple_choice_polls/5g4UdJ3xtDmuTMGugaNSI?controls=none&short_poll=true" width="90%" height="300px"></iframe>
-
-]
+To get the most out of this session, it would be useful (*but not required*) for you to attend/review Dr Mankin's [Planning your Analyses](LINK) session, have created an analysis plan, or know what analysis you intend to do, prior to this workshop.
 
 
 
 ???
 
-using this qr code or link: 
+NOTES
 
+This session aims to serve as a (hopefully motivational) reminder of the huge range of analytical skills you have developed throughout your degree, and how you can put them into practice in your analyses. 
+. Looking at your data for the first time can make you think you have no idea what you're doing, which can lead to procrastination. 
+*Conducting your analyses can be a very daunting process and it can often feel overwhelming where you don't know where to begin. *
 
-https://PollEv.com/devans469
+where to begin. This session aims to help you identify the huge range of analytical skills you've already developed throughout your degree, and how to start analysing your own data. 
 
-https://PollEv.com/multiple_choice_polls/STgCJQQREovRdfxZCBKIA/respond
-
-
-
----
-class: center, middle
-
-# Let's give it a go! 
+where you feel lost. Throughout your degree, you have developed a huge range of analytical skills. This session will help you identify what you already know, and how to put this into action when analysing your data. 
 
 
 
@@ -211,24 +66,240 @@ class: center, middle
 
 ---
 
-# Current Challenges & My Contributions 
+???
 
-- Disengaged & less confident students
+Ideas
 
-  - Weekly SeminRs  
+Find the resouRce... Find the relevant tutorial for your analyses & data wrangling.... 
 
-  - R catch-up courses: WinteR Recap, SummeR School, Pre-semesteR RefresheR  
+The first half of the session will be focusing on quant and qual analyses. The second half will be focusing on R specifically. 
+
+Troubleshooting....
+
+
+
+REMINDER OF SKILLS YOU ALREADY KNOW....
+
+ORGANISING DATA
+
+IMPORTING DATA
+
+WRANGLING DATA
+
+STATISTICAL ANALYSES
+
+DATA CHECKS
+
+
+
+## Materials
+
+- Slides
+
+- Worksheet
+
+### ExtRa Resources
+
+- R Help Desk
+
+- Writing your dissertation in RMarkdown tutorial
+
+---
+
+
+
+- Mkae notes of each step
+
+- write a guide in plain language what you need to do for each part
+
+- Do one task to get started.... 
+
+- Do one thing, pep talks.... 
+
+- You *DO* know what you're doing
+
+
+
+
+
+
+
+
+
+# Session Overview
+
+- Sesh deets.. aims, desc, 
+
+- 2-part session: first half will be quant focused
+
+- Second half with be qual focused????? or nah???
+
+- The beauty of anal
+
+--
+
+## #Goals
+
+- Know what tools you'll use for your analysis 
+
+- Know how to put your analysis plan into action
+
+- Will have started on analysing your data 
+
+
+
+???
+
+
+Where you can go to find out how to do your analysis
+- what tools, analyses, assumption checks etc., apply
+- draw on previous modules (quant AND qual)
+- Useful hints and tips and resources
+- navigating the material they've done
+- Interactive????? Workshop style??
+
+breakdown of the topics covered in each year in core stats modules i.e., you've covered a lot, here's what you know but you probs dont know you know...... reminder of aims of stats modules
+
+
+---
+
+# The Beauty of Anal
+
+- Answer your research question 
+
+- Avoid feeling lost, by knowing *what* you know
+
+- You've built up a huge range of skills over the past 2 years
+
+- Messy data, not knowing where to start or what to do, but you can break it down into the main componenets
+
+- Compiling, Exploring, Cleaning, Wrangling, Analysing, Reporting
+
+
+
+
+
+
+
+
+
+
+
+'MAGIC' image
+
+
+- 1st marking criteria for dissertation 'An excellent project, displaying originality, initiative and *independence* in conception (where applicable), *analysis* or *interpretation*'
+
+- To get into higher mark bands, you should independently analyse and interpret your data
+
+- You should already have an analysis plan, if you don't go back to Jennifer's workshop!! 
+
+
+
+
+
+
+???
+
+Last week Jennifer covered planning your analyses, and she spoke about 
+
+Starting is the worst part, generally can feel quite lost with all the data you have
+
+
+
+
+---
+
+# Analysing your data: the general process
+
+1. "YAY!! I have data!" `r emo::ji("partying_face")`
+
+--
+
+1. Feeling lost, helpless & stressed `r emo::ji("crying_face")`
+
+--
+
+1. Getting it done `r emo::ji("muscle")`
+
+
+
+
+???
+
+Jennifer described this stage last week as where 'the magic' happens, & it is, 
+
+
+
+
+
+
+
+
+
+---
+
+# More Advanced Analyses
+
+
+
+
+---
+
+# If you get stuck
+
+.bold[Q]: I don't know what analysis is appropriate..
+
+.orange.bold[A]: Discuss with your supervisor, consult Andy's [book]() or other resources on Canvas/online 
 
 <br>
 
-- Supporting wider academic activities
 
-  - Support faculty switching to R with tailored workshops 
-  
-  - Assist faculty supervising dissertation students in R 
+.bold[Q]: I don't know what assumptions I need to test..
 
-  - Promoting & teaching open science practices 
+.orange.bold[A]: Discuss with your supervisor, consult Andy's [book]() or other resources on Canvas/online
 
+<br>
+
+
+.bold[Q]: I have a specific problem with my code, I've already asked my supervisor & searched online..
+
+.orange.bold[A]: Come see me at the [dissertation help desk](LINK) 
+
+<br>
+
+.center[
+
+#### Please don't email myself/the methods team :)
+
+]
+
+---
+
+# If you get stuck
+
+.bold[Q]: My supervisor doesn't use R..
+
+.orange.bold[A]: ........
+
+
+<br>
+
+.bold[Q]: I can't access R tutorials..
+
+.orange.bold[A]: ........trouble shoot.... then HD 
+
+
+---
+
+# ExtRa Resources
+
+## R
+
+
+
+
+## Analyses
 
 
 
