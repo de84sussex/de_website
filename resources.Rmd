@@ -65,8 +65,9 @@ Use the table below & hover over the modules to find out what resources cover ea
 
 <br>
 
+<div id = "tab">
 
-<table id = "tab" style="width:100%">
+<table style="width:100%">
   <tr>
     <th>Topic</th>
     <th>Module</th> 
@@ -313,4 +314,4 @@ Use the table below & hover over the modules to find out what resources cover ea
 
 </table>
 
-
+</div>
