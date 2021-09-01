@@ -39,13 +39,15 @@ d-title, d-byline {
 
 -->
 
+::: l-page
+
 ### R-dex
 
 
 <table style="width:100%">
   <tr>
-    <th>Topic</th>
-    <th>Module</th> 
+    <th style="width:50%">Topic</th>
+    <th style="width:50%">Module</th> 
   </tr>
 
   <tr>
@@ -288,3 +290,5 @@ d-title, d-byline {
 
 
 </table>
+
+::: 
