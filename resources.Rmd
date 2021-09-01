@@ -39,7 +39,7 @@ d-title, d-byline {
 
 -->
 
-::: l-page
+::: l-screen
 
 ### R-dex
 
