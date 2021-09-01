@@ -45,7 +45,7 @@ d-title, d-byline {
 
 ### [R-dex](https://desupervision.netlify.app/resources){target="_blank"}
 
-<span class="tooltiptext2">Open in new tab..</span></div>
+<span class="tooltiptext2">Open in new tab</span></div>
 
 <table style="width:100%">
   <tr>
