@@ -41,13 +41,16 @@ d-title, d-byline {
 
 ::: l-screen
 
-### R-dex
+<div class="tooltip">
 
+### [R-dex](https://desupervision.netlify.app/resources){target="_blank"}
+
+<span class="tooltiptext2">Open in new tab..</span></div>
 
 <table style="width:100%">
   <tr>
-    <th style="width:50%">Topic</th>
-    <th style="width:50%">Module</th> 
+    <th style="width:40%">Topic</th>
+    <th style="width:60%">Module</th> 
   </tr>
 
   <tr>

@@ -2216,7 +2216,29 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 
+  .tooltip .tooltiptext2 {
+    visibility: hidden;
+    width: 180px;
+    background-color: grey;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: 
+    opacity: 0;
+    transition: opacity 0.5s;*/
+  }
 
+  .tooltip:hover .tooltiptext2 {
+    visibility: visible;
+    opacity: 1;
+  }
 
   </style>
   <style type="text/css">
@@ -2489,14 +2511,17 @@ d-title, d-byline {
 
 
 -->
-<section id="r-dex" class="l-screen">
-<h3>R-dex</h3>
+<div class="l-screen">
+<section id="r-dex" class="tooltip">
+<h3><a href="https://desupervision.netlify.app/resources" target="_blank">R-dex</a></h3>
+<span class="tooltiptext2">Open in new tab..</span>
+</section>
 <table style="width:100%">
 <tr>
-<th style="width:50%">
+<th style="width:40%">
 Topic
 </th>
-<th style="width:50%">
+<th style="width:60%">
 Module
 </th>
 </tr>
@@ -3164,7 +3189,7 @@ Tut 07
 </td>
 </tr>
 </table>
-</section>
+</div>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
