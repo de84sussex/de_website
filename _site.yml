@@ -34,9 +34,9 @@ navbar:
     #     href: helpdesk.html
     #   - text: "Sussex Data Share"
     #     href: sds.html
-    - text: "Misc"
+    - text: "ExtRas"
       menu:
-      - text: "About"
-        href: about.html
+      - text: "R Resources"
+        href: module_resouRces.html
   search: false
 output: distill::distill_article
