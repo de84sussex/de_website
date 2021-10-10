@@ -1,0 +1,85 @@
+---
+title: "Supervision Setup"
+output:
+  xaringan::moon_reader:
+    css: ["xaringan-themer.css", "ppt_style.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: monokai
+      highlightLines: true
+      highlightSpans: true
+      ratio: '16:9'
+---
+
+
+```{r setup, include=FALSE}
+library(xaringanthemer)
+library(xaringanExtra)
+library(tidyverse)
+library(broom)
+library(papaja)
+library(ggcats)
+library(ggimage)
+
+
+options(htmltools.dir.version = FALSE)
+
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+
+style_mono_light(base_color = "#23395b")
+```
+
+class: center, middle
+
+# Intros & [Webpage](https://desupervision.netlify.app/)
+
+
+---
+
+# Projects
+
+- Option 1:  The effectiveness of game-fiction/gamification for learning R/stats, measured by cognitive/motivational outcomes with [Dr Milan Valášek](https://and.netlify.app/docs/escape/)
+
+<br>
+
+- Option 2: A survey/online study around maths with Prof Andy Field
+
+<br>
+
+- Option 3: *Other* (but you'll be less supported...)
+
+---
+
+class: center, middle
+
+# Groundwork Form
+
+
+---
+
+# R Project Setup
+
+
+- Download [`papaja`](https://desupervision.netlify.app/rmarkdown_tutorial.html)
+
+
+- Create dissertation RProject
+
+
+- Open a new Rmd file from papaja template 
+
+
+- Create .bib file
+
+
+
+
+
+
+
+
+
+
+

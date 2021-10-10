@@ -2394,6 +2394,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   }</style>
   <!--/radix_placeholder_distill-->
   <script src="site_libs/header-attrs-2.9.4/header-attrs.js"></script>
+  <script src="site_libs/clipboard-2.0.6/clipboard.min.js"></script>
+  <link href="site_libs/xaringanExtra-clipboard-0.2.4/xaringanExtra-clipboard.css" rel="stylesheet" />
+  <script src="site_libs/xaringanExtra-clipboard-0.2.4/xaringanExtra-clipboard.js"></script>
+  <script>window.xaringanExtraClipboard(null, {"button":"Copy Code","success":"Copied!","error":"Press Ctrl+C to Copy"})</script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2483,7 +2487,7 @@ ExtRas
 <ul>
 <li><a href="#workflow">Workflow</a></li>
 <li><a href="#installing-papaja">Installing papaja</a></li>
-<li><a href="#using-papaja">Using papaja</a></li>
+<li><a href="#using-papaja">Using <code>papaja</code></a></li>
 <li><a href="#yaml-options">YAML Options</a></li>
 <li><a href="#referencing-.bib-files">Referencing &amp; .bib files</a></li>
 <li><a href="#inserting-student-support-stickers-in-r">Inserting Student Support Stickers in R</a></li>
@@ -2504,7 +2508,7 @@ ExtRas
 <li><p>misc_docs</p></li>
 <li><p>references</p></li>
 </ul>
-<p>Within these folders, <code>data</code> should contain any raw data, <code>r_docs</code> should contain any Rmds or R scripts, <code>misc_docs</code> (or just <code>docs</code> if you prefer) should contain any documents not created in RStudio such as ethics forms, and <code>references</code> should contain saved copies of articles you have read and will cite in your writeup, and .bib files (more on these <a href="https://danielle-evans.netlify.app/rmarkdown_tutorial.html#referencing-.bib-files">later..</a>). You don’t have to follow this workflow at all, but you might find it helpful to structure your files in this way so that things don’t get muddled!</p>
+<p>Within these folders, <code>data</code> should contain any raw data, <code>r_docs</code> should contain any Rmds or R scripts, <code>misc_docs</code> (or just <code>docs</code> if you prefer) should contain any documents not created in RStudio such as ethics forms, and <code>references</code> should contain saved copies of articles you have read and will cite in your writeup, and .bib files (more on these <a href="#referencing-.bib-files">later..</a>). You don’t have to follow this workflow at all, but you might find it helpful to structure your files in this way so that things don’t get muddled!</p>
 <div class="task">
 <p>Within the R Project you’ve just created, create 4 folders to contain your <code>data</code>, <code>r_docs</code>, <code>misc_docs</code>, and <code>references</code> (or use whichever names you prefer)</p>
 </div>
@@ -2519,26 +2523,34 @@ ExtRas
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span class='kw'>if</span><span class='op'>(</span><span class='op'>!</span><span class='st'>"tinytex"</span> <span class='op'>%in%</span> <span class='fu'><a href='https://rdrr.io/r/base/colnames.html'>rownames</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/utils/installed.packages.html'>installed.packages</a></span><span class='op'>(</span><span class='op'>)</span><span class='op'>)</span><span class='op'>)</span> <span class='fu'><a href='https://rdrr.io/r/utils/install.packages.html'>install.packages</a></span><span class='op'>(</span><span class='st'>"tinytex"</span><span class='op'>)</span>
-
-<span class='fu'>tinytex</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/tinytex/man/install_tinytex.html'>install_tinytex</a></span><span class='op'>(</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>tinytex</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/tinytex/man/install_tinytex.html'>install_tinytex</a></span><span class='op'>(</span><span class='op'>)</span>
 </code></pre>
 </div>
 </div>
 <h4 id="step-2-install-papaja">Step 2: install papaja</h4>
-<p>Installing the <code>papaja</code> package is more straightforward, firstly we need to check that we have devtools installed (the first line below), and secondly we need to install papaja from github rather than from the cran (the second line).</p>
+<p>Installing the <code>papaja</code> package is more straightforward, firstly we need to check that we have <code>devtools</code> installed (the first line below), and secondly we need to install <code>papaja</code> from github rather than from the cran (the second line).</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span class='kw'>if</span><span class='op'>(</span><span class='op'>!</span><span class='st'>"devtools"</span> <span class='op'>%in%</span> <span class='fu'><a href='https://rdrr.io/r/base/colnames.html'>rownames</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/utils/installed.packages.html'>installed.packages</a></span><span class='op'>(</span><span class='op'>)</span><span class='op'>)</span><span class='op'>)</span> <span class='fu'><a href='https://rdrr.io/r/utils/install.packages.html'>install.packages</a></span><span class='op'>(</span><span class='st'>"devtools"</span><span class='op'>)</span>
-
-<span class='fu'>devtools</span><span class='fu'>::</span><span class='fu'><a href='https://devtools.r-lib.org//reference/remote-reexports.html'>install_github</a></span><span class='op'>(</span><span class='st'>"crsh/papaja"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>devtools</span><span class='fu'>::</span><span class='fu'><a href='https://devtools.r-lib.org//reference/remote-reexports.html'>install_github</a></span><span class='op'>(</span><span class='st'>"crsh/papaja"</span><span class='op'>)</span>
 </code></pre>
 </div>
 </div>
 <div class="task">
-<p>Install tinytex and papaja using the code above!</p>
+<p>Install <code>tinytex</code> and <code>papaja</code> using the code above!</p>
 </div>
 <p><br></p>
-<h3 id="using-papaja">Using papaja</h3>
+<h3 id="using-papaja">Using <code>papaja</code></h3>
 <p>Once everything’s installed, the Rmd template from the <code>papaja</code> package can be easily accessed through the main menu. To open the template go to File &gt; New File &gt; R Markdown… in the window that pops up, click on From Template &gt; APA article (6th edition) &gt; OK</p>
 <div class="task">
 <p>Open the APA article template using the instructions above</p>
@@ -2556,7 +2568,7 @@ ExtRas
 <p>After knitting, you should have an APA style article magically appear! 🤩</p>
 <div class="sol">
 <p>Your dissertation should be submitted with the file name: cand_no_report</p>
-<p>When creating the Rmd for your dissertation writeup, save it with this file name from the start to avoid any issues later on &amp; remember to save it in the r_docs folder of your R Project as suggested in the <a href="https://danielle-evans.netlify.app/rmarkdown_tutorial.html#workflow">workflow</a></p>
+<p>When creating the Rmd for your dissertation writeup, save it with this file name from the start to avoid any issues later on &amp; remember to save it in the r_docs folder of your R Project as suggested in the <a href="#workflow">workflow</a></p>
 </div>
 <p><br></p>
 <h3 id="yaml-options">YAML Options</h3>
@@ -2580,15 +2592,15 @@ ExtRas
 <div class="task">
 <p>In this folder, open a new plain text document by right-click &gt; New &gt; Text Document &amp; name it diss_references (or whatever you prefer)</p>
 <p>Once created, rename the file to have a .bib extension rather than a .txt extension &amp; you will have created your .bib file!</p>
-<p>Then move this file to the references folder of your R Project to keep with the <a href="https://danielle-evans.netlify.app/rmarkdown_tutorial.html#workflow">workflow</a></p>
+<p>Then move this file to the references folder of your R Project to keep with the <a href="#workflow">workflow</a></p>
 </div>
 <p><br></p>
 <p>OK, so now we have created our .bib file, there are two things we need to do:</p>
 <ol type="1">
-<li><p>Add this filename to the bibliography part of the YAML in our Rmd</p></li>
+<li><p>Add this file path to the bibliography part of the YAML in our Rmd</p></li>
 <li><p>Add some references</p></li>
 </ol>
-<p>For step 1, it’s nice and simple, we just need to include the file name like the example below:</p>
+<p>For step 1, it’s nice and simple, we just need to include the file path like the example below:</p>
 <div class="layout-chunk" data-layout="l-body">
 <p><img src="img/yaml2.png" width="100%" style="display: block; margin: auto;" /></p>
 </div>
@@ -2616,7 +2628,7 @@ ExtRas
 <p><img src="img/refexamples.png" width="100%" /></p>
 </div>
 <p><br></p>
-<p>Alternatively, you can use the citr addin to search for the references in your .bib file.</p>
+<p>Alternatively, you can use the citr addin to search for the references in your .bib file. Within RStudio, find the “Addins” menu underneath the Tools &amp; Help buttons, citr can be accessed from there.</p>
 <div class="layout-chunk" data-layout="l-body">
 <p><img src="img/citr.gif" width="70%" style="display: block; margin: auto;" /></p>
 </div>
@@ -2626,7 +2638,7 @@ ExtRas
 </div>
 <p><br></p>
 <h4 id="referencing-r-packages">Referencing R Packages</h4>
-<p>You will see the below code in the papaja Rmd template. What this does is automatically include any packages you use within the references section. You don’t need to edit this is anyway, just leave as it is and remember to cite the R packages you use for analysis in the method/results section of your report.</p>
+<p>You will see the below code in the papaja Rmd template. What this does is automatically include any packages you use within the references section. You don’t need to edit this in anyway, just leave as it is and remember to cite the R packages you use for analysis in the method/results section of your report.</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='st'><a href='https://github.com/crsh/papaja'>"papaja"</a></span><span class='op'>)</span>

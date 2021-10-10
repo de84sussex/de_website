@@ -11,6 +11,7 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, eval = FALSE)
 library(emo)
+xaringanExtra::use_clipboard()
 ```
 
 ### Workflow
@@ -38,7 +39,7 @@ You should then aim to create the following folders:
 
 - references
 
-Within these folders, `data` should contain any raw data, `r_docs` should contain any Rmds or R scripts, `misc_docs` (or just `docs` if you prefer) should contain any documents not created in RStudio such as ethics forms, and `references` should contain saved copies of articles you have read and will cite in your writeup, and .bib files (more on these [later..](https://danielle-evans.netlify.app/rmarkdown_tutorial.html#referencing-.bib-files)). You don't have to follow this workflow at all, but you might find it helpful to structure your files in this way so that things don't get muddled! 
+Within these folders, `data` should contain any raw data, `r_docs` should contain any Rmds or R scripts, `misc_docs` (or just `docs` if you prefer) should contain any documents not created in RStudio such as ethics forms, and `references` should contain saved copies of articles you have read and will cite in your writeup, and .bib files (more on these [later..](#referencing-.bib-files)). You don't have to follow this workflow at all, but you might find it helpful to structure your files in this way so that things don't get muddled! 
 
 
 :::task
@@ -68,6 +69,10 @@ To install it in RStudio, you can run the following lines in the console:
 
 if(!"tinytex" %in% rownames(installed.packages())) install.packages("tinytex")
 
+```
+
+```{r, echo=TRUE, eval=FALSE}
+
 tinytex::install_tinytex()
 
 ```
@@ -75,11 +80,15 @@ tinytex::install_tinytex()
 
 #### Step 2: install papaja
 
-Installing the `papaja` package is more straightforward, firstly we need to check that we have devtools installed (the first line below), and secondly we need to install papaja from github rather than from the cran (the second line). 
+Installing the `papaja` package is more straightforward, firstly we need to check that we have `devtools` installed (the first line below), and secondly we need to install `papaja` from github rather than from the cran (the second line). 
 
 ```{r, echo=TRUE, eval=FALSE}
 
 if(!"devtools" %in% rownames(installed.packages())) install.packages("devtools")
+
+```
+
+```{r, echo=TRUE, eval=FALSE}
 
 devtools::install_github("crsh/papaja")
 
@@ -88,13 +97,13 @@ devtools::install_github("crsh/papaja")
 
 :::task
 
-Install tinytex and papaja using the code above!
+Install `tinytex` and `papaja` using the code above!
 
 :::
 
 <br>
 
-### Using papaja 
+### Using `papaja` 
 
 Once everything's installed, the Rmd template from the `papaja` package can be easily accessed through the main menu. To open the template go to File > New File > R Markdown... in the window that pops up, click on From Template > APA article (6th edition) > OK
 
@@ -133,7 +142,7 @@ After knitting, you should have an APA style article magically appear! `r emo::j
 
 Your dissertation should be submitted with the file name: cand_no_report
 
-When creating the Rmd for your dissertation writeup, save it with this file name from the start to avoid any issues later on & remember to save it in the r_docs folder of your R Project as suggested in the [workflow](https://danielle-evans.netlify.app/rmarkdown_tutorial.html#workflow)
+When creating the Rmd for your dissertation writeup, save it with this file name from the start to avoid any issues later on & remember to save it in the r_docs folder of your R Project as suggested in the [workflow](#workflow)
 
 :::
 
@@ -184,7 +193,7 @@ In this folder, open a new plain text document by right-click > New > Text Docum
 
 Once created, rename the file to have a .bib extension rather than a .txt extension & you will have created your .bib file! 
 
-Then move this file to the references folder of your R Project to keep with the [workflow](https://danielle-evans.netlify.app/rmarkdown_tutorial.html#workflow) 
+Then move this file to the references folder of your R Project to keep with the [workflow](#workflow) 
 
 :::
 
@@ -192,11 +201,11 @@ Then move this file to the references folder of your R Project to keep with the 
 
 OK, so now we have created our .bib file, there are two things we need to do: 
 
-1. Add this filename to the bibliography part of the YAML in our Rmd 
+1. Add this file path to the bibliography part of the YAML in our Rmd 
 
 2. Add some references  
 
-For step 1, it's nice and simple, we just need to include the file name like the example below: 
+For step 1, it's nice and simple, we just need to include the file path like the example below: 
 
 
 ```{r, echo=FALSE, eval=TRUE, out.width = '100%', fig.align='center'}
@@ -256,7 +265,7 @@ knitr::include_graphics("./img/refexamples.png")
 
 <br>
 
-Alternatively, you can use the citr addin to search for the references in your .bib file. 
+Alternatively, you can use the citr addin to search for the references in your .bib file. Within RStudio, find the "Addins" menu underneath the Tools & Help buttons, citr can be accessed from there.
 
 
 ```{r, eval = TRUE, echo=FALSE, out.width = '70%', fig.align='center'}
@@ -275,7 +284,7 @@ You will see a "References" section at the end of the papaja template, you don't
 
 #### Referencing R Packages
 
-You will see the below code in the papaja Rmd template. What this does is automatically include any packages you use within the references section. You don't need to edit this is anyway, just leave as it is and remember to cite the R packages you use for analysis in the method/results section of your report. 
+You will see the below code in the papaja Rmd template. What this does is automatically include any packages you use within the references section. You don't need to edit this in anyway, just leave as it is and remember to cite the R packages you use for analysis in the method/results section of your report. 
 
 ```{r, echo = TRUE}
 library("papaja")
