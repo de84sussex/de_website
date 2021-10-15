@@ -37,10 +37,17 @@ library(emo)
 - Evans, D., Borriello, G. A., & Field, A. P. (2018). [A review of the academic and psychological impact of the transition to secondary education](https://doi.org/10.3389/fpsyg.2018.01482). *Frontiers in Psychology*, 9. 
  
 
+### Gamification `r emo::ji("video_game")``r emo::ji("space_invader")` & Stats Education `r emo::ji("bar_chart")`
 
-### Statistics Education `r emo::ji("bar_chart")`
+- Christy, K. R., & Fox, J. (2014). [Leaderboards in a virtual classroom: A test of stereotype threat and social comparison explanations for women's math performance](https://www.sciencedirect.com/science/article/pii/S0360131514001195#bib29). *Computers & Education, 78,* 66-77.
 
 - Field, A. P. & Terry, J. C. (2018). [A pilot study of whether fictional narratives are useful in teaching statistical concepts](http://www.discoveringstatistics.com/docs/rss_poster_2018.pdf).
+
+- Landers, R. N., Bauer, K. N., & Callan, R. C. (2017). [Gamification of task performance with leaderboards: A goal setting experiment](https://www.sciencedirect.com/science/article/abs/pii/S0747563215300868?via%3Dihub). *Computers in Human Behavior, 71,* 508-515.
+
+- Mekler, E. D., Brühlmann, F., Tuch, A. N., & Opwis, K. (2017). [Towards understanding the effects of individual gamification elements on intrinsic motivation and performance](https://www.sciencedirect.com/science/article/abs/pii/S0747563215301229?via%3Dihub). *Computers in Human Behavior, 71,* 525-534.
+
+- Sailer, M., & Homner, L. (2020). [The gamification of learning: A meta-analysis](https://link.springer.com/article/10.1007/s10648-019-09498-w). *Educational Psychology Review, 32,* 77–112.
 
 - Smith, T. (2017). [Gamified Modules for an Introductory Statistics Course and Their Impact on Attitudes and Learning](https://doi.org/10.1177/1046878117731888). *Simulation & Gaming*, *48*(6), 832–854. 
 
